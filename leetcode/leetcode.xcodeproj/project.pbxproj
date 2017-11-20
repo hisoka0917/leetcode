@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E97325EF1FC2BB7D001E267C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97325EE1FC2BB7D001E267C /* main.swift */; };
 		E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97325F51FC2BBD0001E267C /* ReverseInteger.swift */; };
+		E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */; };
+		E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB5861FC2D3D900A9605C /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		E97325EB1FC2BB7D001E267C /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97325EE1FC2BB7D001E267C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E97325F51FC2BBD0001E267C /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		E9AAB5861FC2D3D900A9605C /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				E97325EE1FC2BB7D001E267C /* main.swift */,
 				E97325F51FC2BBD0001E267C /* ReverseInteger.swift */,
+				E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */,
+				E9AAB5861FC2D3D900A9605C /* ListNode.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E97325EF1FC2BB7D001E267C /* main.swift in Sources */,
+				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
 				E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */,
+				E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
