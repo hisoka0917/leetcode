@@ -8,9 +8,8 @@
 
 import Foundation
 
-let solution = MergeTwoSortedLists()
-let l1 = arrayToList([1,5,9,21])
-let l2 = arrayToList([3,6,7,10,12,41])
-let result = solution.mergeTwoLists(l1, l2)
+let solution = LongestCommonPrefix()
+let strs = ["leet", "leets", "leed", "leefcode"]
+let result = solution.longestCommonPrefix(strs)
 
-print(listToArray(result))
+print(result)
