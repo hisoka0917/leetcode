@@ -8,8 +8,8 @@
 
 import Foundation
 
-let solution = LongestCommonPrefix()
-let strs = ["leet", "leets", "leed", "leefcode"]
-let result = solution.longestCommonPrefix(strs)
+let solution = LongestSubstring()
+let s = "abcabcbb"
+let result = solution.lengthOfLongestSubstring(s)
 
 print(result)
