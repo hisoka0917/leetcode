@@ -10,14 +10,15 @@ import Foundation
 
 class LongestSubstring {
     func lengthOfLongestSubstring(_ s: String) -> Int {
-        var substring = ""
+        var charDict: [Character: Int] = [:]
         var length = 0
-        for (_, char) in s.enumerated() {
-            if let foundChar = substring.index(of: char) {
-                substring.removeSubrange(substring.startIndex...foundChar)
+        var left = 0
+        for (index, char) in s.enumerated() {
+            if let foundIndex = charDict[char] {
+                left = max(foundIndex + 1, left)
             }
-            substring.append(char)
-            length = substring.count > length ? substring.count : length
+            charDict[char] = index
+            length = max(index - left + 1, length)
         }
         return length
     }

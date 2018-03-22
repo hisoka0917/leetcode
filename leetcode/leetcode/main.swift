@@ -9,7 +9,7 @@
 import Foundation
 
 let solution = LongestSubstring()
-let s = "abcabcbb"
+let s = "abba"
 let result = solution.lengthOfLongestSubstring(s)
 
 print(result)
