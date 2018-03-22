@@ -17,7 +17,7 @@ class LongestCommonPrefix {
 
         var prefix = strs[0]
         for i in 1..<strs.count {
-            while !prefix.isEmpty && !strs[i].hasPrefix(prefix) {
+            while !strs[i].hasPrefix(prefix) {
                 prefix = String(prefix.prefix(prefix.count - 1))
                 // prefix.remove(at: prefix.index(before: prefix.endIndex))
             }

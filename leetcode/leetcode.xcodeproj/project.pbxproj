@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D38B20638938000C06FB /* AddTwoNumbers.swift */; };
 		E97325EF1FC2BB7D001E267C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97325EE1FC2BB7D001E267C /* main.swift */; };
 		E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97325F51FC2BBD0001E267C /* ReverseInteger.swift */; };
 		E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E920D38B20638938000C06FB /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		E97325EB1FC2BB7D001E267C /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97325EE1FC2BB7D001E267C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E97325F51FC2BBD0001E267C /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				E97325F51FC2BBD0001E267C /* ReverseInteger.swift */,
 				E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */,
 				E9F813732062389900CCF69B /* LongestCommonPrefix.swift */,
+				E920D38B20638938000C06FB /* AddTwoNumbers.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				E97325EF1FC2BB7D001E267C /* main.swift in Sources */,
 				E9F813742062389900CCF69B /* LongestCommonPrefix.swift in Sources */,
 				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
+				E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */,
 				E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */,
 				E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */,
 			);
