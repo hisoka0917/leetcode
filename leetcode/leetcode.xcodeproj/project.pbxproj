@@ -17,6 +17,7 @@
 		E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */; };
 		E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB5861FC2D3D900A9605C /* ListNode.swift */; };
 		E9B8BC612114488D00529669 /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */; };
+		E9B8BC6321144EAF00529669 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8BC6221144EAF00529669 /* RemoveElement.swift */; };
 		E9F813742062389900CCF69B /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F813732062389900CCF69B /* LongestCommonPrefix.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		E9AAB5861FC2D3D900A9605C /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
+		E9B8BC6221144EAF00529669 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		E9F813732062389900CCF69B /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				E90D643D2064D3C8003C62C3 /* RegularExpressionMatching.swift */,
 				E93A56C22108A87000C8A95C /* KthLargestElementInArray.swift */,
 				E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */,
+				E9B8BC6221144EAF00529669 /* RemoveElement.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				E97325EF1FC2BB7D001E267C /* main.swift in Sources */,
 				E9F813742062389900CCF69B /* LongestCommonPrefix.swift in Sources */,
+				E9B8BC6321144EAF00529669 /* RemoveElement.swift in Sources */,
 				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
 				E920D3902063AAE7000C06FB /* ValidParentheses.swift in Sources */,
 				E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */,
