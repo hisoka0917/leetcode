@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode;
 
 public class PlusOneSolution {
     public int[] plusOne(int[] digits) {
