@@ -8,8 +8,5 @@
 
 import Foundation
 
-let nums = [3,2,3,1,2,4,5,5,6]
-let k = 7
-let solution = KthLargestElementInArray()
-let i = solution.findKthLargest(nums, k)
-print(i)
+let solution = BalancedBinaryTree()
+solution.test()

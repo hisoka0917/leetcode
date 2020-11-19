@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
+		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
 		E90D643E2064D3C8003C62C3 /* RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D643D2064D3C8003C62C3 /* RegularExpressionMatching.swift */; };
 		E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D38B20638938000C06FB /* AddTwoNumbers.swift */; };
 		E920D38E206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D38D206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift */; };
@@ -20,7 +22,6 @@
 		E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB5861FC2D3D900A9605C /* ListNode.swift */; };
 		E9B8BC612114488D00529669 /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */; };
 		E9B8BC6321144EAF00529669 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8BC6221144EAF00529669 /* RemoveElement.swift */; };
-		E9D0EFC4213D30F300F818CE /* RotateArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E9D0EFC3213D30F300F818CE /* RotateArray.c */; };
 		E9F813742062389900CCF69B /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F813732062389900CCF69B /* LongestCommonPrefix.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
+		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
+		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		E90D643D2064D3C8003C62C3 /* RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatching.swift; sourceTree = "<group>"; };
 		E920D38B20638938000C06FB /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		E920D38D206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
@@ -52,7 +56,6 @@
 		E9AAB5861FC2D3D900A9605C /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
 		E9B8BC6221144EAF00529669 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
-		E9D0EFC3213D30F300F818CE /* RotateArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RotateArray.c; sourceTree = "<group>"; };
 		E9F813732062389900CCF69B /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,12 +70,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA5809E6256613A30059D20A /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */,
+			);
+			name = TestCases;
+			path = leetcode/TestCases;
+			sourceTree = SOURCE_ROOT;
+		};
 		E971D065213687890084B631 /* C */ = {
 			isa = PBXGroup;
 			children = (
 				E971D067213687B00084B631 /* Implementstrstr.c */,
 				E971D066213687AF0084B631 /* leetcode-Bridging-Header.h */,
-				E9D0EFC3213D30F300F818CE /* RotateArray.c */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -99,6 +110,7 @@
 				E971D065213687890084B631 /* C */,
 				E9F813722062369100CCF69B /* Solutions */,
 				E97D22BB1FCD6CBA003B3CEB /* Common */,
+				BA5809E6256613A30059D20A /* TestCases */,
 				E97325EE1FC2BB7D001E267C /* main.swift */,
 			);
 			path = leetcode;
@@ -108,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				E9AAB5861FC2D3D900A9605C /* ListNode.swift */,
+				BA5809E8256613CB0059D20A /* TreeNode.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -126,6 +139,7 @@
 				E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */,
 				E9B8BC6221144EAF00529669 /* RemoveElement.swift */,
 				E971D063213686C00084B631 /* ImplementStrStr.swift */,
+				BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -197,13 +211,14 @@
 				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
 				E920D3902063AAE7000C06FB /* ValidParentheses.swift in Sources */,
 				E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */,
-				E9D0EFC4213D30F300F818CE /* RotateArray.c in Sources */,
 				E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */,
+				BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */,
 				E920D38E206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */,
 				E93A56C32108A87000C8A95C /* KthLargestElementInArray.swift in Sources */,
 				E90D643E2064D3C8003C62C3 /* RegularExpressionMatching.swift in Sources */,
 				E9B8BC612114488D00529669 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
