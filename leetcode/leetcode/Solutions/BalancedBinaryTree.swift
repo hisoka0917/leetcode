@@ -1,10 +1,32 @@
+//  Given a binary tree, determine if it is height-balanced.
 //
-//  BalancedBinaryTree.swift
-//  leetcode
+//  For this problem, a height-balanced binary tree is defined as:
 //
-//  Created by Kai Wang on 11/18/20.
-//  Copyright © 2020 Pirate. All rights reserved.
+//  a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+
+//  Example 1:
 //
+//            3
+//          /   \
+//         9    20
+//             /  \
+//            15   7
+//
+//  Input: root = [3,9,20,nil,nil,15,7]
+//  Output: true
+
+//    Example 2:
+//
+//                1
+//              /   \
+//             2     2
+//            / \
+//           3   3
+//          / \
+//         4   4
+//
+//    Input: root = [1,2,2,3,3,nil,nil,4,4]
+//    Output: false
 
 import Foundation
 

@@ -8,5 +8,5 @@
 
 import Foundation
 
-let solution = BalancedBinaryTree()
+let solution = SearchinRotatedSortedArray()
 solution.test()
