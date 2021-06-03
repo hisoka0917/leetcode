@@ -8,5 +8,5 @@
 
 import Foundation
 
-let solution = SearchinRotatedSortedArray()
+let solution = BinaryTreeInorderTraversal()
 solution.test()
