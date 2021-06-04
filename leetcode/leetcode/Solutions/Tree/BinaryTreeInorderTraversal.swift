@@ -56,9 +56,18 @@ class BinaryTreeInorderTraversal {
 
 extension BinaryTreeInorderTraversal {
     func test() {
-        let input: [Int?] = [2,3,nil,1]
-        let tree = TreeNode(values: input)
-        let inorderTraversal = iterateTraversal(tree)
-        print(inorderTraversal)
+        let case1 = [1,nil,2,3]
+        let case2 = [Int?]()
+        let case3 = [1]
+        let case4 = [1,2]
+        let case5 = [1,nil,2]
+        let case6 = [2,3,nil,1]
+
+        let cases = [case1, case2, case3, case4, case5, case6]
+        for input in cases {
+            let tree = TreeNode(values: input)
+            let inorderTraversal = iterateTraversal(tree)
+            print(inorderTraversal)
+        }
     }
 }

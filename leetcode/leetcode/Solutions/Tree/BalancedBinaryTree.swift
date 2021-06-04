@@ -50,12 +50,16 @@ class BalancedBinaryTree {
     }
 
     func test() {
-        let input: [Int?] = [3,9,20,nil,nil,15,7]
-//        let input: [Int?] = [1,2,2,3,3,nil,nil,4,4]
-        let tree = TreeNode(values: input)
-        print(isBalanced(tree))
-        if let array = tree?.toArray() {
-            print(array)
+        let case1: [Int?] = [3,9,20,nil,nil,15,7]
+        let case2: [Int?] = [1,2,2,3,3,nil,nil,4,4]
+        let case3 = [Int?]()
+        let cases = [case1, case2, case3]
+        for input in cases {
+            let tree = TreeNode(values: input)
+            print(isBalanced(tree))
+            if let array = tree?.toArray() {
+                print(array)
+            }
         }
     }
 }

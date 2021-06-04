@@ -20,13 +20,51 @@ public class TreeNode {
         self.right = right
     }
 
-    public convenience init?(values: [Int?], offset: Int = 0) {
-        guard offset < values.count, let value = values[offset] else {
+    public convenience init?(values: [Int?]) {
+        guard !values.isEmpty else {
             return nil
         }
-        self.init(value)
-        self.left = TreeNode(values: values, offset: 2 * offset + 1)
-        self.right = TreeNode(values: values, offset: 2 * offset + 2)
+
+        guard let first = values[0] else {
+            return nil
+        }
+        self.init(first)
+        var nodes = [TreeNode?]()
+        nodes.append(self)
+        var childrenNodes = [TreeNode?]()
+
+        for (index, _) in values.enumerated() {
+            let left = index * 2 + 1
+            let right = index * 2 + 2
+            if left < values.count {
+                // left child
+                if let leftValue = values[left] {
+                    childrenNodes.append(TreeNode(leftValue))
+                } else {
+                    childrenNodes.append(nil)
+                }
+            } else {
+                childrenNodes.append(nil)
+            }
+            if right < values.count {
+                // right child
+                if let rightValue = values[right] {
+                    childrenNodes.append(TreeNode(rightValue))
+                } else {
+                    childrenNodes.append(nil)
+                }
+            } else {
+                childrenNodes.append(nil)
+            }
+            if let root = nodes.removeFirst() {
+                let leftNode = childrenNodes.removeFirst()
+                root.left = leftNode
+                nodes.append(leftNode)
+                let rightNode = childrenNodes.removeFirst()
+                root.right = rightNode
+                nodes.append(rightNode)
+            }
+        }
     }
 
     public func toArray() -> [Int?] {
