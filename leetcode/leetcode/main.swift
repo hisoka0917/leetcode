@@ -8,5 +8,5 @@
 
 import Foundation
 
-let solution = BinaryTreeInorderTraversal()
+let solution = AddBinary()
 solution.test()
