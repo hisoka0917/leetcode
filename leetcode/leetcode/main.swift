@@ -8,5 +8,5 @@
 
 import Foundation
 
-let solution = AddBinary()
+let solution = MergeSortedArray()
 solution.test()
