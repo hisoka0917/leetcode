@@ -8,5 +8,5 @@
 
 import Foundation
 
-let solution = MergeSortedArray()
+let solution = SearchInsertPosition()
 solution.test()
