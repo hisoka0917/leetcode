@@ -8,5 +8,4 @@
 
 import Foundation
 
-let solution = SearchInsertPosition()
-solution.test()
+FirstBadVersion.test()
