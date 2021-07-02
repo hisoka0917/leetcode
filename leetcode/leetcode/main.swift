@@ -8,4 +8,4 @@
 
 import Foundation
 
-FirstBadVersion.test()
+MaximumSubarray().test()
