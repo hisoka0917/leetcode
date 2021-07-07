@@ -8,4 +8,4 @@
 
 import Foundation
 
-Sqrt().test()
+ValidSudoku().test()
