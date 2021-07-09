@@ -8,4 +8,4 @@
 
 import Foundation
 
-ThreeSum().test()
+EliminateMaximumNumberofMonsters().test()
