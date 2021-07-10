@@ -8,4 +8,4 @@
 
 import Foundation
 
-EliminateMaximumNumberofMonsters().test()
+MultiplyStrings().test()
