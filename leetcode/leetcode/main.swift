@@ -8,4 +8,4 @@
 
 import Foundation
 
-CombinationSum().test()
+CombinationSumII().test()
