@@ -26,7 +26,7 @@ class RotateArray {
             l += 1
             r -= 1
         }
-        l = k
+        l = lastK
         r = nums.count - 1
         while l < r {
             nums.swapAt(l, r)
@@ -38,10 +38,11 @@ class RotateArray {
     func test() {
         let case1 = DataModel(nums: [1,2,3,4,5,6,7], k: 3)
         let case2 = DataModel(nums: [-1,-100,3,99], k: 2)
-        let cases = [case1, case2]
+        let case3 = DataModel(nums: [1,2], k: 2)
+        let cases = [case1, case2, case3]
         for input in cases {
             var nums = input.nums
-            rotate(&nums, input.k)
+            rotateReverse(&nums, input.k)
             print(nums)
         }
     }

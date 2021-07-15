@@ -8,4 +8,4 @@
 
 import Foundation
 
-RotateArray().test()
+ReverseBits().test()
