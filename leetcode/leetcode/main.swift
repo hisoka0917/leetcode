@@ -8,4 +8,4 @@
 
 import Foundation
 
-MinimumPathSum().test()
+UniqueLength3PalindromicSubsequences().test()
