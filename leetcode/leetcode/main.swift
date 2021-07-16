@@ -8,4 +8,4 @@
 
 import Foundation
 
-UniqueLength3PalindromicSubsequences().test()
+DecodeWays().test()
