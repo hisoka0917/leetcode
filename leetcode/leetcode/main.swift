@@ -8,4 +8,4 @@
 
 import Foundation
 
-DecodeWays().test()
+InsertInterval().test()
