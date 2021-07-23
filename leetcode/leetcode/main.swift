@@ -8,4 +8,4 @@
 
 import Foundation
 
-RobotBoundedInCircle().test()
+VerifyinganAlienDictionary().test()
