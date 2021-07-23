@@ -31,6 +31,7 @@
 		BAC15A7326A765F00036D863 /* ReorderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC15A7226A765F00036D863 /* ReorderList.swift */; };
 		BAC15A7526A76F570036D863 /* PaintHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC15A7426A76F570036D863 /* PaintHouse.swift */; };
 		BAC15A7726A773600036D863 /* ShuffleAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC15A7626A773600036D863 /* ShuffleAnArray.swift */; };
+		BAC15A7A26AA4F3C0036D863 /* RobotBoundedInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC15A7926AA4F3C0036D863 /* RobotBoundedInCircle.swift */; };
 		BACF4A4926797FDB00C96331 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF4A4826797FDB00C96331 /* MergeSortedArray.swift */; };
 		BAFD5A022668563300A7A5C9 /* BinaryTreeInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD5A012668563300A7A5C9 /* BinaryTreeInorderTraversal.swift */; };
 		BAFD5A08266D471700A7A5C9 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD5A07266D471700A7A5C9 /* AddBinary.swift */; };
@@ -88,6 +89,7 @@
 		BAC15A7226A765F00036D863 /* ReorderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderList.swift; sourceTree = "<group>"; };
 		BAC15A7426A76F570036D863 /* PaintHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintHouse.swift; sourceTree = "<group>"; };
 		BAC15A7626A773600036D863 /* ShuffleAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleAnArray.swift; sourceTree = "<group>"; };
+		BAC15A7926AA4F3C0036D863 /* RobotBoundedInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotBoundedInCircle.swift; sourceTree = "<group>"; };
 		BACF4A4826797FDB00C96331 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		BAFD5A012668563300A7A5C9 /* BinaryTreeInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeInorderTraversal.swift; sourceTree = "<group>"; };
 		BAFD5A07266D471700A7A5C9 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
@@ -163,6 +165,14 @@
 				BAC15A7026A64D680036D863 /* InsertInterval.swift */,
 			);
 			path = Interval;
+			sourceTree = "<group>";
+		};
+		BAC15A7826AA4F250036D863 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				BAC15A7926AA4F3C0036D863 /* RobotBoundedInCircle.swift */,
+			);
+			path = Math;
 			sourceTree = "<group>";
 		};
 		BAFD5A032668565800A7A5C9 /* Tree */ = {
@@ -267,6 +277,7 @@
 		E9F813722062369100CCF69B /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				BAC15A7826AA4F250036D863 /* Math */,
 				BAC15A6F26A64D550036D863 /* Interval */,
 				BAC15A6826A0B57A0036D863 /* DynamicProgramming */,
 				BAC15A65269FC0A60036D863 /* Binary */,
@@ -365,6 +376,7 @@
 				E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */,
 				BA0B318C256DF75D001C39F3 /* SearchinRotatedSortedArray.swift in Sources */,
 				BAC15A5A2697C7870036D863 /* EliminateMaximumNumberofMonsters.swift in Sources */,
+				BAC15A7A26AA4F3C0036D863 /* RobotBoundedInCircle.swift in Sources */,
 				BAC15A62269FB0AE0036D863 /* EncodeAndDecodeString.swift in Sources */,
 				BAC15A5C269920630036D863 /* MultiplyStrings.swift in Sources */,
 				BAC15A52268E9CC50036D863 /* Sqrt.swift in Sources */,
