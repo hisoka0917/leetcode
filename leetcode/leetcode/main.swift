@@ -8,4 +8,4 @@
 
 import Foundation
 
-VerifyinganAlienDictionary().test()
+ThreeSumClosest().test()

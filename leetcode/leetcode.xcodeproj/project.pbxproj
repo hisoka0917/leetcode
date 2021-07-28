@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0A1D7426B0E65B00CD7EBE /* KClosestPointstoOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1D7326B0E65B00CD7EBE /* KClosestPointstoOrigin.swift */; };
+		BA0A1D7626B0ECFF00CD7EBE /* 3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */; };
 		BA0B318C256DF75D001C39F3 /* SearchinRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */; };
 		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
@@ -65,6 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA0A1D7326B0E65B00CD7EBE /* KClosestPointstoOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KClosestPointstoOrigin.swift; sourceTree = "<group>"; };
+		BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3SumClosest.swift; sourceTree = "<group>"; };
 		BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchinRotatedSortedArray.swift; sourceTree = "<group>"; };
 		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
@@ -124,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA0A1D7226B0E64800CD7EBE /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A1D7326B0E65B00CD7EBE /* KClosestPointstoOrigin.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 		BA5809E6256613A30059D20A /* TestCases */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +223,7 @@
 				BAC15A5F269E69D40036D863 /* CombinationSum.swift */,
 				BAC15A63269FB88D0036D863 /* RotateArray.swift */,
 				BAC15A7626A773600036D863 /* ShuffleAnArray.swift */,
+				BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -280,6 +293,7 @@
 		E9F813722062369100CCF69B /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				BA0A1D7226B0E64800CD7EBE /* Heap */,
 				BAC15A7826AA4F250036D863 /* Math */,
 				BAC15A6F26A64D550036D863 /* Interval */,
 				BAC15A6826A0B57A0036D863 /* DynamicProgramming */,
@@ -374,6 +388,7 @@
 				BAC15A67269FC0B60036D863 /* ReverseBits.swift in Sources */,
 				BAC15A4E268D4A0D0036D863 /* FirstBadVersion.swift in Sources */,
 				E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */,
+				BA0A1D7626B0ECFF00CD7EBE /* 3SumClosest.swift in Sources */,
 				BAC15A4B268D410B0036D863 /* SearchInsertPosition.swift in Sources */,
 				BAC15A64269FB88D0036D863 /* RotateArray.swift in Sources */,
 				E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */,
@@ -387,6 +402,7 @@
 				BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */,
 				BAC15A7326A765F00036D863 /* ReorderList.swift in Sources */,
 				E920D38E206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
+				BA0A1D7426B0E65B00CD7EBE /* KClosestPointstoOrigin.swift in Sources */,
 				BAC15A5E269E66FF0036D863 /* CombinationSumII.swift in Sources */,
 				E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */,
 				E93A56C32108A87000C8A95C /* KthLargestElementInArray.swift in Sources */,
