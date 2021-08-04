@@ -8,4 +8,4 @@
 
 import Foundation
 
-LastStoneWeight().test()
+DecodeString().test()
