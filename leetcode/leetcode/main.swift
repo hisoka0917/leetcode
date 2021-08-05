@@ -8,4 +8,4 @@
 
 import Foundation
 
-LongestPalindromicSubstring().test()
+WordBreak().test()
