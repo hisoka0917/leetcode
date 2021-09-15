@@ -8,4 +8,4 @@
 
 import Foundation
 
-MaximumProductoftheLengthofTwoPalindromicSubsequences().test()
+NumberofPairsofInterchangeableRectangles().test()
