@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA00A099274DC352008CEFA5 /* ImplementStackusingQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00A098274DC352008CEFA5 /* ImplementStackusingQueues.swift */; };
+		BA00A09B274DC7CC008CEFA5 /* PermutationinString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00A09A274DC7CC008CEFA5 /* PermutationinString.swift */; };
 		BA0A1D7426B0E65B00CD7EBE /* KClosestPointstoOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1D7326B0E65B00CD7EBE /* KClosestPointstoOrigin.swift */; };
 		BA0A1D7626B0ECFF00CD7EBE /* 3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */; };
 		BA0A1D7826BA1B4E00CD7EBE /* LastStoneWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1D7726BA1B4E00CD7EBE /* LastStoneWeight.swift */; };
@@ -78,6 +79,7 @@
 
 /* Begin PBXFileReference section */
 		BA00A098274DC352008CEFA5 /* ImplementStackusingQueues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStackusingQueues.swift; sourceTree = "<group>"; };
+		BA00A09A274DC7CC008CEFA5 /* PermutationinString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationinString.swift; sourceTree = "<group>"; };
 		BA0A1D7326B0E65B00CD7EBE /* KClosestPointstoOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KClosestPointstoOrigin.swift; sourceTree = "<group>"; };
 		BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3SumClosest.swift; sourceTree = "<group>"; };
 		BA0A1D7726BA1B4E00CD7EBE /* LastStoneWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStoneWeight.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				BA0A1D7B26BA277300CD7EBE /* DecodeString.swift */,
 				BA0A1D8126BC78EE00CD7EBE /* LongestPalindromicSubstring.swift */,
 				BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */,
+				BA00A09A274DC7CC008CEFA5 /* PermutationinString.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				BA0A1D7626B0ECFF00CD7EBE /* 3SumClosest.swift in Sources */,
 				BAC15A4B268D410B0036D863 /* SearchInsertPosition.swift in Sources */,
 				BAC15A64269FB88D0036D863 /* RotateArray.swift in Sources */,
+				BA00A09B274DC7CC008CEFA5 /* PermutationinString.swift in Sources */,
 				E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */,
 				BA0B318C256DF75D001C39F3 /* SearchinRotatedSortedArray.swift in Sources */,
 				BA0A1D7C26BA277300CD7EBE /* DecodeString.swift in Sources */,

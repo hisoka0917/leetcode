@@ -8,4 +8,4 @@
 
 import Foundation
 
-NumberofPairsofInterchangeableRectangles().test()
+PermutationinString().test()
