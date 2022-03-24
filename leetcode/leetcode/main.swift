@@ -8,4 +8,4 @@
 
 import Foundation
 
-PermutationinString().test()
+BoatstoSavePeople().test()
