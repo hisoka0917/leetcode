@@ -24,6 +24,7 @@
 		BA97451926F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */; };
 		BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
+		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
 		BAC15A4B268D410B0036D863 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC15A4A268D410B0036D863 /* SearchInsertPosition.swift */; };
 		BAC15A4E268D4A0D0036D863 /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC15A4D268D4A0D0036D863 /* FirstBadVersion.swift */; };
 		BAC15A50268E97190036D863 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC15A4F268E97190036D863 /* MaximumSubarray.swift */; };
@@ -97,6 +98,7 @@
 		BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductoftheLengthofTwoPalindromicSubsequences.swift; sourceTree = "<group>"; };
 		BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofPairsofInterchangeableRectangles.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
+		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
 		BAC15A4A268D410B0036D863 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		BAC15A4D268D4A0D0036D863 /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
 		BAC15A4F268E97190036D863 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
@@ -177,6 +179,14 @@
 			name = TestCases;
 			path = leetcode/TestCases;
 			sourceTree = SOURCE_ROOT;
+		};
+		BABECA3C27EE505800633F6E /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */,
+			);
+			path = Greedy;
+			sourceTree = "<group>";
 		};
 		BAC15A4C268D49F20036D863 /* BinarySearch */ = {
 			isa = PBXGroup;
@@ -336,6 +346,7 @@
 		E9F813722062369100CCF69B /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				BABECA3C27EE505800633F6E /* Greedy */,
 				BA00A097274DC331008CEFA5 /* Stack */,
 				BA0A1D7226B0E64800CD7EBE /* Heap */,
 				BAC15A7826AA4F250036D863 /* Math */,
@@ -447,6 +458,7 @@
 				BAC15A5A2697C7870036D863 /* EliminateMaximumNumberofMonsters.swift in Sources */,
 				BAC15A7A26AA4F3C0036D863 /* RobotBoundedInCircle.swift in Sources */,
 				BAC15A62269FB0AE0036D863 /* EncodeAndDecodeString.swift in Sources */,
+				BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */,
 				BAC15A5C269920630036D863 /* MultiplyStrings.swift in Sources */,
 				BA0A1D7826BA1B4E00CD7EBE /* LastStoneWeight.swift in Sources */,
 				BAC15A52268E9CC50036D863 /* Sqrt.swift in Sources */,

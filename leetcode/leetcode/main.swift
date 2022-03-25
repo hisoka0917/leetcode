@@ -8,4 +8,4 @@
 
 import Foundation
 
-BoatstoSavePeople().test()
+TwoCityScheduling().test()
