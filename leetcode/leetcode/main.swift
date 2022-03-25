@@ -8,4 +8,4 @@
 
 import Foundation
 
-TwoCityScheduling().test()
+ShortestBridge().test()
