@@ -8,4 +8,4 @@
 
 import Foundation
 
-ShortestBridge().test()
+BSTIterator.test()
