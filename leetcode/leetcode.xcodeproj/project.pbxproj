@@ -23,6 +23,7 @@
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
 		BA8ABA6D2862A16B004AA9FD /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA6C2862A16B004AA9FD /* ContainsDuplicate.swift */; };
 		BA8ABA6F2862A437004AA9FD /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */; };
+		BA8ABA712862A8D4004AA9FD /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA702862A8D4004AA9FD /* TwoSum.swift */; };
 		BA97451926F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */; };
 		BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
@@ -101,6 +102,7 @@
 		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		BA8ABA6C2862A16B004AA9FD /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
+		BA8ABA702862A8D4004AA9FD /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductoftheLengthofTwoPalindromicSubsequences.swift; sourceTree = "<group>"; };
 		BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofPairsofInterchangeableRectangles.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			children = (
 				BA8ABA6C2862A16B004AA9FD /* ContainsDuplicate.swift */,
 				BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */,
+				BA8ABA702862A8D4004AA9FD /* TwoSum.swift */,
 			);
 			path = "Array&Hashing";
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				BAC15A7526A76F570036D863 /* PaintHouse.swift in Sources */,
 				E90D643E2064D3C8003C62C3 /* RegularExpressionMatching.swift in Sources */,
 				E9B8BC612114488D00529669 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				BA8ABA712862A8D4004AA9FD /* TwoSum.swift in Sources */,
 				BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */,
 				BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */,
 				BAFD5A08266D471700A7A5C9 /* AddBinary.swift in Sources */,
