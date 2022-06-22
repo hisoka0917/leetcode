@@ -8,4 +8,4 @@
 
 import Foundation
 
-ContainsDuplicate().test()
+ValidAnagram().test()
