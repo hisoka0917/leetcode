@@ -25,6 +25,7 @@
 		BA8ABA6F2862A437004AA9FD /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */; };
 		BA8ABA712862A8D4004AA9FD /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA702862A8D4004AA9FD /* TwoSum.swift */; };
 		BA8ABA732864059C004AA9FD /* ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA722864059C004AA9FD /* ValidPalindrome.swift */; };
+		BA8ABA75286539EF004AA9FD /* BestTimetoBuyandSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */; };
 		BA97451926F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */; };
 		BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
@@ -105,6 +106,7 @@
 		BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		BA8ABA702862A8D4004AA9FD /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		BA8ABA722864059C004AA9FD /* ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindrome.swift; sourceTree = "<group>"; };
+		BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStock.swift; sourceTree = "<group>"; };
 		BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductoftheLengthofTwoPalindromicSubsequences.swift; sourceTree = "<group>"; };
 		BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofPairsofInterchangeableRectangles.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */,
 				BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */,
 				BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */,
+				BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				BAC15A7126A64D680036D863 /* InsertInterval.swift in Sources */,
 				BA0A1D8026BB38CB00CD7EBE /* PathSumII.swift in Sources */,
 				E9F813742062389900CCF69B /* LongestCommonPrefix.swift in Sources */,
+				BA8ABA75286539EF004AA9FD /* BestTimetoBuyandSellStock.swift in Sources */,
 				E971D068213687B00084B631 /* Implementstrstr.c in Sources */,
 				BA0A1D7E26BB31DB00CD7EBE /* MissingNumber.swift in Sources */,
 				BACF4A4926797FDB00C96331 /* MergeSortedArray.swift in Sources */,

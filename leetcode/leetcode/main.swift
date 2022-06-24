@@ -8,4 +8,4 @@
 
 import Foundation
 
-ValidPalindrome().test()
+BestTimetoBuyandSellStock().test()
