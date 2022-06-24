@@ -8,4 +8,4 @@
 
 import Foundation
 
-BestTimetoBuyandSellStock().test()
+MinStack.test()
