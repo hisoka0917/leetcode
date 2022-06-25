@@ -28,6 +28,7 @@
 		BA8ABA75286539EF004AA9FD /* BestTimetoBuyandSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */; };
 		BA8ABA77286540AB004AA9FD /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA76286540AB004AA9FD /* MinStack.swift */; };
 		BA8ABA7928654445004AA9FD /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA7828654445004AA9FD /* BinarySearch.swift */; };
+		BA8ABA7B2866882A004AA9FD /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA7A2866882A004AA9FD /* ReverseLinkedList.swift */; };
 		BA97451926F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */; };
 		BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
@@ -111,6 +112,7 @@
 		BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStock.swift; sourceTree = "<group>"; };
 		BA8ABA76286540AB004AA9FD /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		BA8ABA7828654445004AA9FD /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		BA8ABA7A2866882A004AA9FD /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductoftheLengthofTwoPalindromicSubsequences.swift; sourceTree = "<group>"; };
 		BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofPairsofInterchangeableRectangles.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
@@ -284,13 +286,14 @@
 			path = Tree;
 			sourceTree = "<group>";
 		};
-		BAFD5A042668566100A7A5C9 /* List */ = {
+		BAFD5A042668566100A7A5C9 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
 				E97325F71FC2CBB5001E267C /* MergeTwoSortedLists.swift */,
 				BAC15A7226A765F00036D863 /* ReorderList.swift */,
+				BA8ABA7A2866882A004AA9FD /* ReverseLinkedList.swift */,
 			);
-			path = List;
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 		BAFD5A052668566B00A7A5C9 /* Array */ = {
@@ -400,7 +403,7 @@
 				BAC15A4C268D49F20036D863 /* BinarySearch */,
 				BAFD5A06266856A900A7A5C9 /* String */,
 				BAFD5A052668566B00A7A5C9 /* Array */,
-				BAFD5A042668566100A7A5C9 /* List */,
+				BAFD5A042668566100A7A5C9 /* LinkedList */,
 				BAFD5A032668565800A7A5C9 /* Tree */,
 				E97325F51FC2BBD0001E267C /* ReverseInteger.swift */,
 				E920D38B20638938000C06FB /* AddTwoNumbers.swift */,
@@ -481,6 +484,7 @@
 				BA97451926F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift in Sources */,
 				BAC15A7126A64D680036D863 /* InsertInterval.swift in Sources */,
 				BA0A1D8026BB38CB00CD7EBE /* PathSumII.swift in Sources */,
+				BA8ABA7B2866882A004AA9FD /* ReverseLinkedList.swift in Sources */,
 				E9F813742062389900CCF69B /* LongestCommonPrefix.swift in Sources */,
 				BA8ABA75286539EF004AA9FD /* BestTimetoBuyandSellStock.swift in Sources */,
 				E971D068213687B00084B631 /* Implementstrstr.c in Sources */,

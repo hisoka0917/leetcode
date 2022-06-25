@@ -8,4 +8,4 @@
 
 import Foundation
 
-BinarySearch().test()
+ReverseLinkedList().test()
