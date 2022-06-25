@@ -8,4 +8,4 @@
 
 import Foundation
 
-ReverseLinkedList().test()
+LinkedListCycle().test()

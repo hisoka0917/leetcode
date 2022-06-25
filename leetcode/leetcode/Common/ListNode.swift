@@ -30,6 +30,25 @@ func arrayToList(_ array: Array<Int>) -> ListNode? {
     return head.next
 }
 
+func arrayToCycleList(_ array: [Int], pos: Int) -> ListNode? {
+    guard array.count > 0 else {
+        return nil
+    }
+    let head = ListNode.init(0)
+    var p: ListNode? = head
+    var cycleNode: ListNode?
+    for (index, val) in array.enumerated() {
+        let item = ListNode.init(val)
+        p?.next = item
+        p = p?.next
+        if index == pos {
+            cycleNode = item
+        }
+    }
+    p?.next = cycleNode
+    return head.next
+}
+
 func listToArray(_ list: ListNode?) -> Array<Int> {
     guard list != nil else {
         return []
@@ -41,4 +60,22 @@ func listToArray(_ list: ListNode?) -> Array<Int> {
         list = list?.next
     } while (list != nil)
     return array
+}
+
+func cycleList(at pos: Int, list: ListNode?) -> ListNode? {
+    guard let head = list, pos >= 0 else {
+        return list
+    }
+    var tail: ListNode? = head
+    var posNode: ListNode? = nil
+    var index = 0
+    while tail?.next != nil {
+        if index == pos {
+            posNode = tail
+        }
+        index += 1
+        tail = tail?.next
+    }
+    tail?.next = posNode
+    return head
 }
