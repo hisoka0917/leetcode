@@ -8,4 +8,4 @@
 
 import Foundation
 
-MaximumDepthofBinaryTree().test()
+DiameterofBinaryTree().test()
