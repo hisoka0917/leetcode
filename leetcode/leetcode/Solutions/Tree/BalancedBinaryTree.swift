@@ -49,6 +49,35 @@ class BalancedBinaryTree {
         return 1 + subTreeDepth
     }
 
+//    func validateHeight(for node: TreeNode?) throws -> Int {
+//        guard let node = node else { return 0 }
+//
+//        if node.isLeaf {
+//            return 1
+//        }
+//
+//        let leftHeight = try validateHeight(for: node.left)
+//        let rightHeight = try validateHeight(for: node.right)
+//
+//        if abs(leftHeight - rightHeight) > 1 {
+//            throw "Not balanced"
+//        }
+//
+//        return max(leftHeight, rightHeight) + 1
+//    }
+//
+//
+//    func isBalanced(_ root: TreeNode?) -> Bool {
+//        guard let root = root else { return true }
+//
+//        do {
+//            try validateHeight(for: root)
+//            return true
+//        } catch {
+//            return false
+//        }
+//    }
+
     func test() {
         let case1: [Int?] = [3,9,20,nil,nil,15,7]
         let case2: [Int?] = [1,2,2,3,3,nil,nil,4,4]
