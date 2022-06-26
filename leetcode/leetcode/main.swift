@@ -8,4 +8,4 @@
 
 import Foundation
 
-LinkedListCycle().test()
+InvertBinaryTree().test()
