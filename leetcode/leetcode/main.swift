@@ -8,4 +8,4 @@
 
 import Foundation
 
-DiameterofBinaryTree().test()
+KthLargest.test()
