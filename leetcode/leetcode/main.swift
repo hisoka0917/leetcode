@@ -8,4 +8,4 @@
 
 import Foundation
 
-KthLargest.test()
+Subsets().test()

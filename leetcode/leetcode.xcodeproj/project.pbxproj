@@ -21,6 +21,7 @@
 		BA0B318C256DF75D001C39F3 /* SearchinRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */; };
 		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
+		BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78D5F8286BD598009BA16F /* Subsets.swift */; };
 		BA8ABA6D2862A16B004AA9FD /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA6C2862A16B004AA9FD /* ContainsDuplicate.swift */; };
 		BA8ABA6F2862A437004AA9FD /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */; };
 		BA8ABA712862A8D4004AA9FD /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABA702862A8D4004AA9FD /* TwoSum.swift */; };
@@ -110,6 +111,7 @@
 		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
 		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		BA78D5F8286BD598009BA16F /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		BA8ABA6C2862A16B004AA9FD /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		BA8ABA702862A8D4004AA9FD /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -212,6 +214,14 @@
 			name = TestCases;
 			path = leetcode/TestCases;
 			sourceTree = SOURCE_ROOT;
+		};
+		BA78D5F7286BD588009BA16F /* Backtracking */ = {
+			isa = PBXGroup;
+			children = (
+				BA78D5F8286BD598009BA16F /* Subsets.swift */,
+			);
+			path = Backtracking;
+			sourceTree = "<group>";
 		};
 		BA8ABA6B2862A156004AA9FD /* Array&Hashing */ = {
 			isa = PBXGroup;
@@ -406,6 +416,7 @@
 		E9F813722062369100CCF69B /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				BA78D5F7286BD588009BA16F /* Backtracking */,
 				BA8ABA6B2862A156004AA9FD /* Array&Hashing */,
 				BABECA3F27EE595F00633F6E /* BFS */,
 				BABECA3C27EE505800633F6E /* Greedy */,
@@ -515,6 +526,7 @@
 				BAC15A4E268D4A0D0036D863 /* FirstBadVersion.swift in Sources */,
 				BA8ABA832868E660004AA9FD /* DiameterofBinaryTree.swift in Sources */,
 				E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */,
+				BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */,
 				BA0A1D7626B0ECFF00CD7EBE /* 3SumClosest.swift in Sources */,
 				BAC15A4B268D410B0036D863 /* SearchInsertPosition.swift in Sources */,
 				BAC15A64269FB88D0036D863 /* RotateArray.swift in Sources */,
