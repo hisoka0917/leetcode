@@ -8,4 +8,4 @@
 
 import Foundation
 
-Subsets().test()
+NumberofIslands().test()
