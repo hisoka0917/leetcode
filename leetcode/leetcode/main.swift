@@ -8,4 +8,4 @@
 
 import Foundation
 
-ClimbingStairs().test()
+MinCostClimbingStairs().test()
