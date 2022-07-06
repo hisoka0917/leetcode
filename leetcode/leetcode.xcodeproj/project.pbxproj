@@ -39,6 +39,8 @@
 		BA9BE4E3286D3DBB00C68DBD /* NumberofIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4E2286D3DBB00C68DBD /* NumberofIslands.swift */; };
 		BA9BE4E5286E866F00C68DBD /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4E4286E866F00C68DBD /* ClimbingStairs.swift */; };
 		BA9BE4E7286E891E00C68DBD /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4E6286E891E00C68DBD /* MinCostClimbingStairs.swift */; };
+		BA9BE4E928750D9C00C68DBD /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4E828750D9C00C68DBD /* MeetingRooms.swift */; };
+		BA9BE4EB28750DCA00C68DBD /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4EA28750DCA00C68DBD /* Interval.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -132,6 +134,8 @@
 		BA9BE4E2286D3DBB00C68DBD /* NumberofIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofIslands.swift; sourceTree = "<group>"; };
 		BA9BE4E4286E866F00C68DBD /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
 		BA9BE4E6286E891E00C68DBD /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
+		BA9BE4E828750D9C00C68DBD /* MeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRooms.swift; sourceTree = "<group>"; };
+		BA9BE4EA28750DCA00C68DBD /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -250,6 +254,7 @@
 		BABECA3C27EE505800633F6E /* Greedy */ = {
 			isa = PBXGroup;
 			children = (
+				BAC15A4F268E97190036D863 /* MaximumSubarray.swift */,
 				BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */,
 			);
 			path = Greedy;
@@ -299,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				BAC15A7026A64D680036D863 /* InsertInterval.swift */,
+				BA9BE4E828750D9C00C68DBD /* MeetingRooms.swift */,
 			);
 			path = Interval;
 			sourceTree = "<group>";
@@ -345,7 +351,6 @@
 				BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */,
 				BACF4A4826797FDB00C96331 /* MergeSortedArray.swift */,
 				BAC15A4A268D410B0036D863 /* SearchInsertPosition.swift */,
-				BAC15A4F268E97190036D863 /* MaximumSubarray.swift */,
 				BAC15A5326952AC90036D863 /* ValidSudoku.swift */,
 				BAC15A57269693120036D863 /* ThreeSum.swift */,
 				BAC15A592697C7870036D863 /* EliminateMaximumNumberofMonsters.swift */,
@@ -425,6 +430,7 @@
 				BA0A1D7926BA1D2400CD7EBE /* Heap.swift */,
 				E9AAB5861FC2D3D900A9605C /* ListNode.swift */,
 				BA5809E8256613CB0059D20A /* TreeNode.swift */,
+				BA9BE4EA28750DCA00C68DBD /* Interval.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -514,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9BE4E928750D9C00C68DBD /* MeetingRooms.swift in Sources */,
 				E97325EF1FC2BB7D001E267C /* main.swift in Sources */,
 				BA8ABA7D28668F7E004AA9FD /* LinkedListCycle.swift in Sources */,
 				E971D064213686C00084B631 /* ImplementStrStr.swift in Sources */,
@@ -583,6 +590,7 @@
 				BAC15A58269693120036D863 /* ThreeSum.swift in Sources */,
 				BAC15A7C26AA53CA0036D863 /* VerifyinganAlienDictionary.swift in Sources */,
 				BABECA4127EE596C00633F6E /* ShortestBridge.swift in Sources */,
+				BA9BE4EB28750DCA00C68DBD /* Interval.swift in Sources */,
 				BA9BE4E3286D3DBB00C68DBD /* NumberofIslands.swift in Sources */,
 				BAC15A7526A76F570036D863 /* PaintHouse.swift in Sources */,
 				E90D643E2064D3C8003C62C3 /* RegularExpressionMatching.swift in Sources */,
