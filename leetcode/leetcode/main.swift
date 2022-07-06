@@ -8,4 +8,4 @@
 
 import Foundation
 
-MeetingRooms().test()
+HappyNumber().test()

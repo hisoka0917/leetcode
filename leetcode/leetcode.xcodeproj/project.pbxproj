@@ -42,6 +42,7 @@
 		BA9BE4E928750D9C00C68DBD /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4E828750D9C00C68DBD /* MeetingRooms.swift */; };
 		BA9BE4EB28750DCA00C68DBD /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4EA28750DCA00C68DBD /* Interval.swift */; };
 		BA9BE4ED287510DB00C68DBD /* FibonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4EC287510DB00C68DBD /* FibonacciNumber.swift */; };
+		BA9BE4EF28751B0500C68DBD /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4EE28751B0500C68DBD /* HappyNumber.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -138,6 +139,7 @@
 		BA9BE4E828750D9C00C68DBD /* MeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRooms.swift; sourceTree = "<group>"; };
 		BA9BE4EA28750DCA00C68DBD /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
 		BA9BE4EC287510DB00C68DBD /* FibonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciNumber.swift; sourceTree = "<group>"; };
+		BA9BE4EE28751B0500C68DBD /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 			children = (
 				BAC15A7926AA4F3C0036D863 /* RobotBoundedInCircle.swift */,
 				BA0A1D7D26BB31DB00CD7EBE /* MissingNumber.swift */,
+				BA9BE4EE28751B0500C68DBD /* HappyNumber.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 				BAC15A67269FC0B60036D863 /* ReverseBits.swift in Sources */,
 				BA0A1D8426BC845D00CD7EBE /* WordBreak.swift in Sources */,
 				BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */,
+				BA9BE4EF28751B0500C68DBD /* HappyNumber.swift in Sources */,
 				BAC15A4E268D4A0D0036D863 /* FirstBadVersion.swift in Sources */,
 				BA8ABA832868E660004AA9FD /* DiameterofBinaryTree.swift in Sources */,
 				E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */,
