@@ -8,4 +8,4 @@
 
 import Foundation
 
-HappyNumber().test()
+PlusOne().test()
