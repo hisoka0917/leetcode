@@ -8,4 +8,4 @@
 
 import Foundation
 
-PlusOne().test()
+SingleNumber().test()
