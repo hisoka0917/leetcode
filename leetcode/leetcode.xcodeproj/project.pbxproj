@@ -46,6 +46,7 @@
 		BA9BE4F1287522A400C68DBD /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F0287522A400C68DBD /* PlusOne.swift */; };
 		BA9BE4F328752ADA00C68DBD /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */; };
 		BA9BE4F52876789100C68DBD /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */; };
+		BA9BE4F728767EA200C68DBD /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F628767EA200C68DBD /* TopKFrequentElements.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -146,6 +147,7 @@
 		BA9BE4F0287522A400C68DBD /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		BA9BE4F628767EA200C68DBD /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -250,6 +252,8 @@
 				BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */,
 				BA8ABA702862A8D4004AA9FD /* TwoSum.swift */,
 				BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */,
+				BAC15A5326952AC90036D863 /* ValidSudoku.swift */,
+				BA9BE4F628767EA200C68DBD /* TopKFrequentElements.swift */,
 			);
 			path = "Array&Hashing";
 			sourceTree = "<group>";
@@ -366,7 +370,6 @@
 				BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */,
 				BACF4A4826797FDB00C96331 /* MergeSortedArray.swift */,
 				BAC15A4A268D410B0036D863 /* SearchInsertPosition.swift */,
-				BAC15A5326952AC90036D863 /* ValidSudoku.swift */,
 				BAC15A57269693120036D863 /* ThreeSum.swift */,
 				BAC15A592697C7870036D863 /* EliminateMaximumNumberofMonsters.swift */,
 				BAC15A5D269E66FF0036D863 /* CombinationSumII.swift */,
@@ -540,6 +543,7 @@
 				BA8ABA7D28668F7E004AA9FD /* LinkedListCycle.swift in Sources */,
 				E971D064213686C00084B631 /* ImplementStrStr.swift in Sources */,
 				BAC15A50268E97190036D863 /* MaximumSubarray.swift in Sources */,
+				BA9BE4F728767EA200C68DBD /* TopKFrequentElements.swift in Sources */,
 				BAC15A56269685A10036D863 /* FindMinimuminRotatedSortedArray.swift in Sources */,
 				BA8ABA6D2862A16B004AA9FD /* ContainsDuplicate.swift in Sources */,
 				BA9BE4E5286E866F00C68DBD /* ClimbingStairs.swift in Sources */,

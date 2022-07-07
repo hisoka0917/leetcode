@@ -8,4 +8,4 @@
 
 import Foundation
 
-GroupAnagrams().test()
+TopKFrequentElements().test()
