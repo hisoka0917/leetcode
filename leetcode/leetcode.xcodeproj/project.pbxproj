@@ -45,6 +45,7 @@
 		BA9BE4EF28751B0500C68DBD /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4EE28751B0500C68DBD /* HappyNumber.swift */; };
 		BA9BE4F1287522A400C68DBD /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F0287522A400C68DBD /* PlusOne.swift */; };
 		BA9BE4F328752ADA00C68DBD /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */; };
+		BA9BE4F52876789100C68DBD /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -144,6 +145,7 @@
 		BA9BE4EE28751B0500C68DBD /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		BA9BE4F0287522A400C68DBD /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				BA8ABA6C2862A16B004AA9FD /* ContainsDuplicate.swift */,
 				BA8ABA6E2862A437004AA9FD /* ValidAnagram.swift */,
 				BA8ABA702862A8D4004AA9FD /* TwoSum.swift */,
+				BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */,
 			);
 			path = "Array&Hashing";
 			sourceTree = "<group>";
@@ -585,6 +588,7 @@
 				BA0A1D7826BA1B4E00CD7EBE /* LastStoneWeight.swift in Sources */,
 				BAC15A52268E9CC50036D863 /* Sqrt.swift in Sources */,
 				BAC15A6A26A0B6290036D863 /* MinimumPathSum.swift in Sources */,
+				BA9BE4F52876789100C68DBD /* GroupAnagrams.swift in Sources */,
 				BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */,
 				BAC15A7326A765F00036D863 /* ReorderList.swift in Sources */,
 				E920D38E206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,

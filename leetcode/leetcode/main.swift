@@ -8,4 +8,4 @@
 
 import Foundation
 
-SingleNumber().test()
+GroupAnagrams().test()
