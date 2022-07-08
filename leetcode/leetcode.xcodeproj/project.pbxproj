@@ -273,8 +273,18 @@
 			children = (
 				BA8ABA722864059C004AA9FD /* ValidPalindrome.swift */,
 				BA9BE4F92877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift */,
+				BAC15A57269693120036D863 /* ThreeSum.swift */,
+				BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */,
 			);
 			path = TwoPointers;
+			sourceTree = "<group>";
+		};
+		BA9BE4FB2877CA2500C68DBD /* SlidingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */,
+			);
+			path = SlidingWindow;
 			sourceTree = "<group>";
 		};
 		BABECA3C27EE505800633F6E /* Greedy */ = {
@@ -381,16 +391,13 @@
 				BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */,
 				BACF4A4826797FDB00C96331 /* MergeSortedArray.swift */,
 				BAC15A4A268D410B0036D863 /* SearchInsertPosition.swift */,
-				BAC15A57269693120036D863 /* ThreeSum.swift */,
 				BAC15A592697C7870036D863 /* EliminateMaximumNumberofMonsters.swift */,
 				BAC15A5D269E66FF0036D863 /* CombinationSumII.swift */,
 				BAC15A5F269E69D40036D863 /* CombinationSum.swift */,
 				BAC15A63269FB88D0036D863 /* RotateArray.swift */,
 				BAC15A7626A773600036D863 /* ShuffleAnArray.swift */,
-				BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */,
 				BA97451A26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift */,
 				BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */,
-				BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -466,6 +473,7 @@
 		E9F813722062369100CCF69B /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				BA9BE4FB2877CA2500C68DBD /* SlidingWindow */,
 				BA9BE4F82877C57200C68DBD /* TwoPointers */,
 				BA9BE4E1286D3CB900C68DBD /* Gragh */,
 				BA78D5F7286BD588009BA16F /* Backtracking */,
