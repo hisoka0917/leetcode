@@ -47,6 +47,7 @@
 		BA9BE4F328752ADA00C68DBD /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */; };
 		BA9BE4F52876789100C68DBD /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */; };
 		BA9BE4F728767EA200C68DBD /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F628767EA200C68DBD /* TopKFrequentElements.swift */; };
+		BA9BE4FA2877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F92877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -148,6 +149,7 @@
 		BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		BA9BE4F628767EA200C68DBD /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
+		BA9BE4F92877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwoSumII-InputArrayIsSorted.swift"; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -264,6 +266,15 @@
 				BA9BE4E2286D3DBB00C68DBD /* NumberofIslands.swift */,
 			);
 			path = Gragh;
+			sourceTree = "<group>";
+		};
+		BA9BE4F82877C57200C68DBD /* TwoPointers */ = {
+			isa = PBXGroup;
+			children = (
+				BA8ABA722864059C004AA9FD /* ValidPalindrome.swift */,
+				BA9BE4F92877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift */,
+			);
+			path = TwoPointers;
 			sourceTree = "<group>";
 		};
 		BABECA3C27EE505800633F6E /* Greedy */ = {
@@ -400,7 +411,6 @@
 				BA0A1D8126BC78EE00CD7EBE /* LongestPalindromicSubstring.swift */,
 				BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */,
 				BA00A09A274DC7CC008CEFA5 /* PermutationinString.swift */,
-				BA8ABA722864059C004AA9FD /* ValidPalindrome.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -456,6 +466,7 @@
 		E9F813722062369100CCF69B /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				BA9BE4F82877C57200C68DBD /* TwoPointers */,
 				BA9BE4E1286D3CB900C68DBD /* Gragh */,
 				BA78D5F7286BD588009BA16F /* Backtracking */,
 				BA8ABA6B2862A156004AA9FD /* Array&Hashing */,
@@ -570,6 +581,7 @@
 				BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */,
 				BA9BE4EF28751B0500C68DBD /* HappyNumber.swift in Sources */,
 				BAC15A4E268D4A0D0036D863 /* FirstBadVersion.swift in Sources */,
+				BA9BE4FA2877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift in Sources */,
 				BA8ABA832868E660004AA9FD /* DiameterofBinaryTree.swift in Sources */,
 				E920D38C20638938000C06FB /* AddTwoNumbers.swift in Sources */,
 				BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */,
