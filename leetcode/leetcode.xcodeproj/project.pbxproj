@@ -48,6 +48,7 @@
 		BA9BE4F52876789100C68DBD /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */; };
 		BA9BE4F728767EA200C68DBD /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F628767EA200C68DBD /* TopKFrequentElements.swift */; };
 		BA9BE4FA2877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4F92877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift */; };
+		BA9BE4FD2878C44F00C68DBD /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE4FC2878C44F00C68DBD /* LongestRepeatingCharacterReplacement.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -150,6 +151,7 @@
 		BA9BE4F42876789100C68DBD /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		BA9BE4F628767EA200C68DBD /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
 		BA9BE4F92877C59C00C68DBD /* TwoSumII-InputArrayIsSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwoSumII-InputArrayIsSorted.swift"; sourceTree = "<group>"; };
+		BA9BE4FC2878C44F00C68DBD /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -282,7 +284,10 @@
 		BA9BE4FB2877CA2500C68DBD /* SlidingWindow */ = {
 			isa = PBXGroup;
 			children = (
+				BA00A09A274DC7CC008CEFA5 /* PermutationinString.swift */,
+				E920D38D206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift */,
 				BA8ABA74286539EF004AA9FD /* BestTimetoBuyandSellStock.swift */,
+				BA9BE4FC2878C44F00C68DBD /* LongestRepeatingCharacterReplacement.swift */,
 			);
 			path = SlidingWindow;
 			sourceTree = "<group>";
@@ -407,7 +412,6 @@
 			children = (
 				E971D063213686C00084B631 /* ImplementStrStr.swift */,
 				E9F813732062389900CCF69B /* LongestCommonPrefix.swift */,
-				E920D38D206391A6000C06FB /* LongestSubstringWithoutRepeatingCharacters.swift */,
 				E9B8BC6221144EAF00529669 /* RemoveElement.swift */,
 				BAFD5A07266D471700A7A5C9 /* AddBinary.swift */,
 				BAC15A5B269920630036D863 /* MultiplyStrings.swift */,
@@ -417,7 +421,6 @@
 				BA0A1D7B26BA277300CD7EBE /* DecodeString.swift */,
 				BA0A1D8126BC78EE00CD7EBE /* LongestPalindromicSubstring.swift */,
 				BA97451826F0339300C0DC15 /* MaximumProductoftheLengthofTwoPalindromicSubsequences.swift */,
-				BA00A09A274DC7CC008CEFA5 /* PermutationinString.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 				E9B8BC6321144EAF00529669 /* RemoveElement.swift in Sources */,
 				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
 				E920D3902063AAE7000C06FB /* ValidParentheses.swift in Sources */,
+				BA9BE4FD2878C44F00C68DBD /* LongestRepeatingCharacterReplacement.swift in Sources */,
 				BA9BE4E7286E891E00C68DBD /* MinCostClimbingStairs.swift in Sources */,
 				BAC15A67269FC0B60036D863 /* ReverseBits.swift in Sources */,
 				BA0A1D8426BC845D00CD7EBE /* WordBreak.swift in Sources */,

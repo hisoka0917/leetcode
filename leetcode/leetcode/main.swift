@@ -8,4 +8,4 @@
 
 import Foundation
 
-TwoSumIIInputArrayIsSorted().test()
+LongestRepeatingCharacterReplacement().test()
