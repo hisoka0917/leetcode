@@ -331,6 +331,7 @@
 				BA8ABA7828654445004AA9FD /* BinarySearch.swift */,
 				BA9BE505287DF78200C68DBD /* Search2DMatrix.swift */,
 				BA9BE507287E046200C68DBD /* KokoEatingBananas.swift */,
+				BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -408,7 +409,6 @@
 			children = (
 				E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */,
 				E93A56C22108A87000C8A95C /* KthLargestElementInArray.swift */,
-				BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */,
 				BACF4A4826797FDB00C96331 /* MergeSortedArray.swift */,
 				BAC15A4A268D410B0036D863 /* SearchInsertPosition.swift */,
 				BAC15A592697C7870036D863 /* EliminateMaximumNumberofMonsters.swift */,
