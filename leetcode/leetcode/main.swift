@@ -8,4 +8,4 @@
 
 import Foundation
 
-EvaluateReversePolishNotation().test()
+GenerateParentheses().test()
