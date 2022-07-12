@@ -53,6 +53,7 @@
 		BA9BE501287CFEB000C68DBD /* GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE500287CFEB000C68DBD /* GenerateParentheses.swift */; };
 		BA9BE503287D0F7200C68DBD /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE502287D0F7200C68DBD /* DailyTemperatures.swift */; };
 		BA9BE506287DF78200C68DBD /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE505287DF78200C68DBD /* Search2DMatrix.swift */; };
+		BA9BE508287E046200C68DBD /* KokoEatingBananas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE507287E046200C68DBD /* KokoEatingBananas.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -160,6 +161,7 @@
 		BA9BE500287CFEB000C68DBD /* GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParentheses.swift; sourceTree = "<group>"; };
 		BA9BE502287D0F7200C68DBD /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
 		BA9BE505287DF78200C68DBD /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
+		BA9BE507287E046200C68DBD /* KokoEatingBananas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokoEatingBananas.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				BAC15A55269685A10036D863 /* FindMinimuminRotatedSortedArray.swift */,
 				BA8ABA7828654445004AA9FD /* BinarySearch.swift */,
 				BA9BE505287DF78200C68DBD /* Search2DMatrix.swift */,
+				BA9BE507287E046200C68DBD /* KokoEatingBananas.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				BAC15A7526A76F570036D863 /* PaintHouse.swift in Sources */,
 				E90D643E2064D3C8003C62C3 /* RegularExpressionMatching.swift in Sources */,
 				E9B8BC612114488D00529669 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				BA9BE508287E046200C68DBD /* KokoEatingBananas.swift in Sources */,
 				BA8ABA712862A8D4004AA9FD /* TwoSum.swift in Sources */,
 				BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */,
 				BA9BE506287DF78200C68DBD /* Search2DMatrix.swift in Sources */,
