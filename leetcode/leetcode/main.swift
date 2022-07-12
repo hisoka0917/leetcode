@@ -8,4 +8,4 @@
 
 import Foundation
 
-DailyTemperatures().test()
+Search2DMatrix().test()
