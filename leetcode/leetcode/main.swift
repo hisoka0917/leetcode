@@ -8,4 +8,4 @@
 
 import Foundation
 
-RemoveNthNodeFromEndofList().test()
+CopyListwithRandomPointer().test()

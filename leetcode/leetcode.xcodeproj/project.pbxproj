@@ -55,6 +55,8 @@
 		BA9BE506287DF78200C68DBD /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE505287DF78200C68DBD /* Search2DMatrix.swift */; };
 		BA9BE508287E046200C68DBD /* KokoEatingBananas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE507287E046200C68DBD /* KokoEatingBananas.swift */; };
 		BA9BE50A287F579A00C68DBD /* RemoveNthNodeFromEndofList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE509287F579A00C68DBD /* RemoveNthNodeFromEndofList.swift */; };
+		BA9BE50C287F642D00C68DBD /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE50B287F642D00C68DBD /* Node.swift */; };
+		BA9BE50E287F697700C68DBD /* CopyListwithRandomPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE50D287F697700C68DBD /* CopyListwithRandomPointer.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -164,6 +166,8 @@
 		BA9BE505287DF78200C68DBD /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
 		BA9BE507287E046200C68DBD /* KokoEatingBananas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokoEatingBananas.swift; sourceTree = "<group>"; };
 		BA9BE509287F579A00C68DBD /* RemoveNthNodeFromEndofList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndofList.swift; sourceTree = "<group>"; };
+		BA9BE50B287F642D00C68DBD /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		BA9BE50D287F697700C68DBD /* CopyListwithRandomPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyListwithRandomPointer.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -403,6 +407,8 @@
 				BA8ABA7A2866882A004AA9FD /* ReverseLinkedList.swift */,
 				BA8ABA7C28668F7E004AA9FD /* LinkedListCycle.swift */,
 				BA9BE509287F579A00C68DBD /* RemoveNthNodeFromEndofList.swift */,
+				E920D38B20638938000C06FB /* AddTwoNumbers.swift */,
+				BA9BE50D287F697700C68DBD /* CopyListwithRandomPointer.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -487,6 +493,7 @@
 				E9AAB5861FC2D3D900A9605C /* ListNode.swift */,
 				BA5809E8256613CB0059D20A /* TreeNode.swift */,
 				BA9BE4EA28750DCA00C68DBD /* Interval.swift */,
+				BA9BE50B287F642D00C68DBD /* Node.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -513,7 +520,6 @@
 				BAFD5A042668566100A7A5C9 /* LinkedList */,
 				BAFD5A032668565800A7A5C9 /* Tree */,
 				E97325F51FC2BBD0001E267C /* ReverseInteger.swift */,
-				E920D38B20638938000C06FB /* AddTwoNumbers.swift */,
 				E90D643D2064D3C8003C62C3 /* RegularExpressionMatching.swift */,
 			);
 			path = Solutions;
@@ -647,6 +653,7 @@
 				BAC15A5E269E66FF0036D863 /* CombinationSumII.swift in Sources */,
 				BA0A1D8226BC78EE00CD7EBE /* LongestPalindromicSubstring.swift in Sources */,
 				BA8ABA7928654445004AA9FD /* BinarySearch.swift in Sources */,
+				BA9BE50C287F642D00C68DBD /* Node.swift in Sources */,
 				BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */,
 				E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */,
 				BABECA4327F24C9100633F6E /* BinarySearchTreeIterator.swift in Sources */,
@@ -665,6 +672,7 @@
 				BAC15A7526A76F570036D863 /* PaintHouse.swift in Sources */,
 				E90D643E2064D3C8003C62C3 /* RegularExpressionMatching.swift in Sources */,
 				E9B8BC612114488D00529669 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				BA9BE50E287F697700C68DBD /* CopyListwithRandomPointer.swift in Sources */,
 				BA9BE508287E046200C68DBD /* KokoEatingBananas.swift in Sources */,
 				BA8ABA712862A8D4004AA9FD /* TwoSum.swift in Sources */,
 				BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */,
