@@ -8,4 +8,4 @@
 
 import Foundation
 
-KokoEatingBananas().test()
+RemoveNthNodeFromEndofList().test()
