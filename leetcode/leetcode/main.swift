@@ -8,4 +8,4 @@
 
 import Foundation
 
-BinaryTreeLevelOrderTraversal().test()
+BinaryTreeRightSideView().test()
