@@ -8,4 +8,4 @@
 
 import Foundation
 
-SameTree().test()
+SubtreeOfAnotherTree().test()
