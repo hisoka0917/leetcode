@@ -8,4 +8,4 @@
 
 import Foundation
 
-CopyListwithRandomPointer().test()
+SameTree().test()
