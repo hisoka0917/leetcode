@@ -8,4 +8,4 @@
 
 import Foundation
 
-BinaryTreeRightSideView().test()
+KthLargestElementInArray().test()

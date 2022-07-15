@@ -11,8 +11,33 @@ import Foundation
 class KthLargestElementInArray {
 
     func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
-        var list = nums
-        return quickSelect(list: &list, left: 0, right: list.count - 1, k: k)
+        var nums = nums
+
+        func quickSelect(_ left: Int, _ right: Int) -> Int {
+            // select right element as the pivot
+            let pivot = nums[right]
+
+            // Partition
+            var pos = left
+            for i in left ..< right {
+                if nums[i] > pivot {
+                    nums.swapAt(pos, i)
+                    pos += 1
+                }
+            }
+            nums.swapAt(pos, right)
+
+            if pos > k - 1 {
+                return quickSelect(left, pos - 1)
+            } else if pos < k - 1 {
+                return quickSelect(pos + 1, right)
+            } else {
+                // Kth largest index is k - 1
+                return nums[pos]
+            }
+        }
+
+        return quickSelect(0, nums.count - 1)
     }
 
     func quickSelect(list: inout [Int], left: Int, right: Int, k: Int) -> Int {
@@ -46,6 +71,14 @@ class KthLargestElementInArray {
         return storeIndex
     }
 
+    func test() {
+        let case1 = ([3,2,1,5,6,4], 2)
+        let case2 = ([3,2,3,1,2,4,5,5,6], 4)
+        let cases = [case1, case2]
+        for input in cases {
+            print(findKthLargest(input.0, input.1))
+        }
+    }
 }
 
 /*** 12ms solution

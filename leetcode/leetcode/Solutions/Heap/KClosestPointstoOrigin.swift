@@ -16,11 +16,8 @@ class KClosestPointstoOrigin {
             pointList.append([distance, point[0], point[1]])
         }
         let sorted = pointList.sorted(by: { $0[0] < $1[0] })
-        var res = [[Int]]()
-        for i in 0 ..< k {
-            res.append([sorted[i][1], sorted[i][2]])
-        }
-        return res
+        
+        return sorted[0 ..< k].map { [$0[1], $0[2]] }
     }
 
     func test() {

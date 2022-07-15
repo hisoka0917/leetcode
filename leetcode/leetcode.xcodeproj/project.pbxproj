@@ -259,6 +259,7 @@
 				BA0A1D7326B0E65B00CD7EBE /* KClosestPointstoOrigin.swift */,
 				BA0A1D7726BA1B4E00CD7EBE /* LastStoneWeight.swift */,
 				BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */,
+				E93A56C22108A87000C8A95C /* KthLargestElementInArray.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -444,7 +445,6 @@
 			isa = PBXGroup;
 			children = (
 				E9B8BC602114488D00529669 /* RemoveDuplicatesFromSortedArray.swift */,
-				E93A56C22108A87000C8A95C /* KthLargestElementInArray.swift */,
 				BACF4A4826797FDB00C96331 /* MergeSortedArray.swift */,
 				BAC15A4A268D410B0036D863 /* SearchInsertPosition.swift */,
 				BAC15A592697C7870036D863 /* EliminateMaximumNumberofMonsters.swift */,
