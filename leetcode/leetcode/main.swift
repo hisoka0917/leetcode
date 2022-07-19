@@ -8,4 +8,4 @@
 
 import Foundation
 
-SubsetsII().test()
+CombinationSumII().test()

@@ -12,7 +12,25 @@ class CombinationSumII {
     func combinationSum2(_ candidates: [Int], _ target: Int) -> [[Int]] {
         var res = [[Int]]()
         let candidates = candidates.sorted()
-        backtrack(candidates: candidates, target: target, start: 0, curCombine: [], combinations: &res)
+
+        func backtracking(target: Int, start: Int, combine: [Int]) {
+            guard target > 0 else {
+                if target == 0 {
+                    res.append(combine)
+                }
+                return
+            }
+            for i in start ..< candidates.count {
+                if i > start && candidates[i] == candidates[i - 1] {
+                    continue
+                }
+                backtracking(target: target - candidates[i],
+                             start: i + 1,
+                             combine: combine + [candidates[i]])
+            }
+        }
+
+        backtracking(target: target, start: 0, combine: [])
         return res
     }
 
