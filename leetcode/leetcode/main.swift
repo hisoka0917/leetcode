@@ -8,4 +8,4 @@
 
 import Foundation
 
-KthLargestElementInArray().test()
+Permutations().test()

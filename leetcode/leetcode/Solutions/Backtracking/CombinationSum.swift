@@ -11,7 +11,23 @@ import Foundation
 class CombinationSum {
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
         var res = [[Int]]()
-        combinationSumHelper(candidates: candidates, target: target, start: 0, curCombine: [], combinations: &res)
+
+        func backtracking(target: Int, start: Int, combine: [Int]) {
+            if target < 0 {
+                return
+            } else if target == 0 {
+                res.append(combine)
+                return
+            } else {
+                for i in start ..< candidates.count {
+                    backtracking(target: target - candidates[i],
+                                 start: i,
+                                 combine: combine + [candidates[i]])
+                }
+            }
+        }
+
+        backtracking(target: target, start: 0, combine: [])
         return res
     }
 
