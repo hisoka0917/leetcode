@@ -66,6 +66,7 @@
 		BA9BE51D28862FC900C68DBD /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE51C28862FC900C68DBD /* Permutations.swift */; };
 		BA9BE51F2886348000C68DBD /* SubsetsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE51E2886348000C68DBD /* SubsetsII.swift */; };
 		BA9BE5212887905B00C68DBD /* CloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5202887905B00C68DBD /* CloneGraph.swift */; };
+		BA9BE5232888916200C68DBD /* MaxAreaofIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5222888916200C68DBD /* MaxAreaofIsland.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -186,6 +187,7 @@
 		BA9BE51C28862FC900C68DBD /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		BA9BE51E2886348000C68DBD /* SubsetsII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsetsII.swift; sourceTree = "<group>"; };
 		BA9BE5202887905B00C68DBD /* CloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneGraph.swift; sourceTree = "<group>"; };
+		BA9BE5222888916200C68DBD /* MaxAreaofIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaofIsland.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 			children = (
 				BA9BE4E2286D3DBB00C68DBD /* NumberofIslands.swift */,
 				BA9BE5202887905B00C68DBD /* CloneGraph.swift */,
+				BA9BE5222888916200C68DBD /* MaxAreaofIsland.swift */,
 			);
 			path = Gragh;
 			sourceTree = "<group>";
@@ -699,6 +702,7 @@
 				BABECA4327F24C9100633F6E /* BinarySearchTreeIterator.swift in Sources */,
 				E93A56C32108A87000C8A95C /* KthLargestElementInArray.swift in Sources */,
 				BA00A099274DC352008CEFA5 /* ImplementStackusingQueues.swift in Sources */,
+				BA9BE5232888916200C68DBD /* MaxAreaofIsland.swift in Sources */,
 				BA8ABA7F2868DD91004AA9FD /* InvertBinaryTree.swift in Sources */,
 				BA8ABA6F2862A437004AA9FD /* ValidAnagram.swift in Sources */,
 				BAC15A5426952AC90036D863 /* ValidSudoku.swift in Sources */,
