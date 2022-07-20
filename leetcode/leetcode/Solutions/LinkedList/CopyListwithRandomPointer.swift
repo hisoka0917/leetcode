@@ -9,14 +9,14 @@
 import Foundation
 
 class CopyListwithRandomPointer {
-    func copyRandomList(_ head: Node?) -> Node? {
+    fileprivate func copyRandomList(_ head: RandomListNode?) -> RandomListNode? {
         guard head != nil else { return nil }
         var node = head
-        var nodeArray = [Node]()
-        var copyArray = [Node]()
+        var nodeArray = [RandomListNode]()
+        var copyArray = [RandomListNode]()
         while node != nil {
             nodeArray.append(node!)
-            copyArray.append(Node(node!.val))
+            copyArray.append(RandomListNode(node!.val))
             node = node?.next
         }
         node = head
@@ -44,3 +44,51 @@ class CopyListwithRandomPointer {
         }
     }
 }
+
+fileprivate class RandomListNode {
+    fileprivate var val: Int
+    fileprivate var next: RandomListNode?
+    fileprivate var random: RandomListNode?
+    fileprivate init(_ val: Int) {
+        self.val = val
+        self.next = nil
+        self.random = nil
+    }
+}
+
+
+fileprivate func makeRandomList(from array: [[Int?]]) -> RandomListNode {
+    let nodeArray = array.map { RandomListNode($0[0]!) }
+    let length = nodeArray.count
+    for i in 0 ..< length {
+        nodeArray[i].next = i + 1 < length ? nodeArray[i + 1] : nil
+        if let randomPointer = array[i][1] {
+            nodeArray[i].random = nodeArray[randomPointer]
+        }
+    }
+    return nodeArray[0]
+}
+
+fileprivate func arrayFromRandomList(node: RandomListNode?) -> [[Int?]] {
+    var head = node
+    var res = [[Int?]]()
+    var nodeArray = [RandomListNode]()
+    while head != nil {
+        nodeArray.append(node!)
+        head = head?.next
+    }
+
+    head = node
+    while head != nil {
+        let val = head?.val
+        var randomPos: Int? = nil
+        if let random = node?.random,
+           let position = nodeArray.firstIndex(where: { $0 === random }) {
+               randomPos = position
+        }
+        res.append([val!, randomPos])
+        head = head?.next
+    }
+    return res
+}
+

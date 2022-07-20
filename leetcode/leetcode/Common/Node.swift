@@ -10,47 +10,60 @@ import Foundation
 
 public class Node {
     public var val: Int
-    public var next: Node?
-    public var random: Node?
+    public var neighbors: [Node?]
     public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-        self.random = nil
+      self.val = val
+      self.neighbors = []
     }
 }
 
-
-func makeRandomList(from array: [[Int?]]) -> Node {
-    let nodeArray = array.map { Node($0[0]!) }
-    let length = nodeArray.count
-    for i in 0 ..< length {
-        nodeArray[i].next = i + 1 < length ? nodeArray[i + 1] : nil
-        if let randomPointer = array[i][1] {
-            nodeArray[i].random = nodeArray[randomPointer]
-        }
+extension Node: Hashable {
+    public static func == (lhs: Node, rhs: Node) -> Bool {
+        lhs === rhs
     }
-    return nodeArray[0]
+
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(self.val)
+    }
 }
 
-func arrayFromRandomList(node: Node?) -> [[Int?]] {
-    var head = node
-    var res = [[Int?]]()
-    var nodeArray = [Node]()
-    while head != nil {
-        nodeArray.append(node!)
-        head = head?.next
+func makeNode(from adjacencyList: [[Int]]) -> Node? {
+    guard !adjacencyList.isEmpty else {
+        return nil
+    }
+    var nodeList = [Node]()
+    for i in 1 ... adjacencyList.count {
+        nodeList.append(Node(i))
+    }
+    for i in 0 ..< adjacencyList.count {
+        let adj = adjacencyList[i]
+        for int in adj {
+            nodeList[i].neighbors.append(nodeList[int - 1])
+        }
+    }
+    return nodeList.first!
+}
+
+func adjacencyList(from node: Node?) -> [[Int]] {
+    guard let node = node else {
+        return []
     }
 
-    head = node
-    while head != nil {
-        let val = head?.val
-        var randomPos: Int? = nil
-        if let random = node?.random,
-           let position = nodeArray.firstIndex(where: { $0 === random }) {
-               randomPos = position
+    var stack = [node]
+    var visited = Set<Node>()
+    var res = [[Int]]()
+    while !stack.isEmpty {
+        let top = stack.removeLast()
+        var adj = [Int]()
+        for neighbor in top.neighbors {
+            if !visited.contains(neighbor!),
+                !stack.contains(neighbor!) {
+                stack.append(neighbor!)
+            }
+            adj.append(neighbor!.val)
         }
-        res.append([val!, randomPos])
-        head = head?.next
+        res.append(adj)
+        visited.insert(top)
     }
     return res
 }

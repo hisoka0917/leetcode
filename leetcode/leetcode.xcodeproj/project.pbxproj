@@ -65,6 +65,7 @@
 		BA9BE51B2881F79A00C68DBD /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE51A2881F79A00C68DBD /* Trie.swift */; };
 		BA9BE51D28862FC900C68DBD /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE51C28862FC900C68DBD /* Permutations.swift */; };
 		BA9BE51F2886348000C68DBD /* SubsetsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE51E2886348000C68DBD /* SubsetsII.swift */; };
+		BA9BE5212887905B00C68DBD /* CloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5202887905B00C68DBD /* CloneGraph.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -184,6 +185,7 @@
 		BA9BE51A2881F79A00C68DBD /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		BA9BE51C28862FC900C68DBD /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		BA9BE51E2886348000C68DBD /* SubsetsII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsetsII.swift; sourceTree = "<group>"; };
+		BA9BE5202887905B00C68DBD /* CloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneGraph.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				BA9BE4E2286D3DBB00C68DBD /* NumberofIslands.swift */,
+				BA9BE5202887905B00C68DBD /* CloneGraph.swift */,
 			);
 			path = Gragh;
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				E9B8BC6321144EAF00529669 /* RemoveElement.swift in Sources */,
 				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
 				E920D3902063AAE7000C06FB /* ValidParentheses.swift in Sources */,
+				BA9BE5212887905B00C68DBD /* CloneGraph.swift in Sources */,
 				BA9BE4FD2878C44F00C68DBD /* LongestRepeatingCharacterReplacement.swift in Sources */,
 				BA9BE4E7286E891E00C68DBD /* MinCostClimbingStairs.swift in Sources */,
 				BA9BE4FF287CF73000C68DBD /* EvaluateReversePolishNotation.swift in Sources */,
