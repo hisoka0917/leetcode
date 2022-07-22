@@ -8,4 +8,4 @@
 
 import Foundation
 
-PacificAtlanticWaterFlow().test()
+SurroundedRegions().test()
