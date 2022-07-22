@@ -69,6 +69,7 @@
 		BA9BE5232888916200C68DBD /* MaxAreaofIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5222888916200C68DBD /* MaxAreaofIsland.swift */; };
 		BA9BE5252888A1DA00C68DBD /* PacificAtlanticWaterFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5242888A1DA00C68DBD /* PacificAtlanticWaterFlow.swift */; };
 		BA9BE527288A49E800C68DBD /* SurroundedRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE526288A49E800C68DBD /* SurroundedRegions.swift */; };
+		BA9BE529288B342300C68DBD /* RottingOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE528288B342300C68DBD /* RottingOranges.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -192,6 +193,7 @@
 		BA9BE5222888916200C68DBD /* MaxAreaofIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaofIsland.swift; sourceTree = "<group>"; };
 		BA9BE5242888A1DA00C68DBD /* PacificAtlanticWaterFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacificAtlanticWaterFlow.swift; sourceTree = "<group>"; };
 		BA9BE526288A49E800C68DBD /* SurroundedRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedRegions.swift; sourceTree = "<group>"; };
+		BA9BE528288B342300C68DBD /* RottingOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottingOranges.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 				BA9BE5222888916200C68DBD /* MaxAreaofIsland.swift */,
 				BA9BE5242888A1DA00C68DBD /* PacificAtlanticWaterFlow.swift */,
 				BA9BE526288A49E800C68DBD /* SurroundedRegions.swift */,
+				BA9BE528288B342300C68DBD /* RottingOranges.swift */,
 			);
 			path = Gragh;
 			sourceTree = "<group>";
@@ -633,6 +636,7 @@
 				BA9BE51D28862FC900C68DBD /* Permutations.swift in Sources */,
 				BA8ABA7D28668F7E004AA9FD /* LinkedListCycle.swift in Sources */,
 				E971D064213686C00084B631 /* ImplementStrStr.swift in Sources */,
+				BA9BE529288B342300C68DBD /* RottingOranges.swift in Sources */,
 				BAC15A50268E97190036D863 /* MaximumSubarray.swift in Sources */,
 				BA9BE4F728767EA200C68DBD /* TopKFrequentElements.swift in Sources */,
 				BAC15A56269685A10036D863 /* FindMinimuminRotatedSortedArray.swift in Sources */,
