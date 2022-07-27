@@ -70,6 +70,8 @@
 		BA9BE5252888A1DA00C68DBD /* PacificAtlanticWaterFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5242888A1DA00C68DBD /* PacificAtlanticWaterFlow.swift */; };
 		BA9BE527288A49E800C68DBD /* SurroundedRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE526288A49E800C68DBD /* SurroundedRegions.swift */; };
 		BA9BE529288B342300C68DBD /* RottingOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE528288B342300C68DBD /* RottingOranges.swift */; };
+		BA9BE52B2891CEE700C68DBD /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE52A2891CEE700C68DBD /* HouseRobber.swift */; };
+		BA9BE52D2891D60C00C68DBD /* HouseRobberII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE52C2891D60C00C68DBD /* HouseRobberII.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -194,6 +196,8 @@
 		BA9BE5242888A1DA00C68DBD /* PacificAtlanticWaterFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacificAtlanticWaterFlow.swift; sourceTree = "<group>"; };
 		BA9BE526288A49E800C68DBD /* SurroundedRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedRegions.swift; sourceTree = "<group>"; };
 		BA9BE528288B342300C68DBD /* RottingOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottingOranges.swift; sourceTree = "<group>"; };
+		BA9BE52A2891CEE700C68DBD /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
+		BA9BE52C2891D60C00C68DBD /* HouseRobberII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobberII.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -406,6 +410,8 @@
 				BA0A1D8326BC845D00CD7EBE /* WordBreak.swift */,
 				BA9BE4E6286E891E00C68DBD /* MinCostClimbingStairs.swift */,
 				BA9BE4EC287510DB00C68DBD /* FibonacciNumber.swift */,
+				BA9BE52A2891CEE700C68DBD /* HouseRobber.swift */,
+				BA9BE52C2891D60C00C68DBD /* HouseRobberII.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -636,6 +642,7 @@
 				BA9BE51D28862FC900C68DBD /* Permutations.swift in Sources */,
 				BA8ABA7D28668F7E004AA9FD /* LinkedListCycle.swift in Sources */,
 				E971D064213686C00084B631 /* ImplementStrStr.swift in Sources */,
+				BA9BE52B2891CEE700C68DBD /* HouseRobber.swift in Sources */,
 				BA9BE529288B342300C68DBD /* RottingOranges.swift in Sources */,
 				BAC15A50268E97190036D863 /* MaximumSubarray.swift in Sources */,
 				BA9BE4F728767EA200C68DBD /* TopKFrequentElements.swift in Sources */,
@@ -662,6 +669,7 @@
 				BACF4A4926797FDB00C96331 /* MergeSortedArray.swift in Sources */,
 				E9B8BC6321144EAF00529669 /* RemoveElement.swift in Sources */,
 				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
+				BA9BE52D2891D60C00C68DBD /* HouseRobberII.swift in Sources */,
 				E920D3902063AAE7000C06FB /* ValidParentheses.swift in Sources */,
 				BA9BE5212887905B00C68DBD /* CloneGraph.swift in Sources */,
 				BA9BE4FD2878C44F00C68DBD /* LongestRepeatingCharacterReplacement.swift in Sources */,

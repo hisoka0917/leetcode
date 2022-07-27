@@ -8,4 +8,4 @@
 
 import Foundation
 
-RottingOranges().test()
+HouseRobberII().test()
