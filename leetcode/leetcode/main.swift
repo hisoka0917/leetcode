@@ -8,4 +8,4 @@
 
 import Foundation
 
-JumpGame().test()
+JumpGameII().test()
