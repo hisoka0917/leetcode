@@ -8,4 +8,4 @@
 
 import Foundation
 
-UniquePaths().test()
+JumpGame().test()
