@@ -8,4 +8,4 @@
 
 import Foundation
 
-PalindromicSubstrings().test()
+UniquePaths().test()
