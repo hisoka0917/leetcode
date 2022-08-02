@@ -76,6 +76,7 @@
 		BA9BE531289366F500C68DBD /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE530289366F500C68DBD /* UniquePaths.swift */; };
 		BA9BE53328936AD400C68DBD /* JumpGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE53228936AD400C68DBD /* JumpGame.swift */; };
 		BA9BE5352893784000C68DBD /* JumpGameII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5342893784000C68DBD /* JumpGameII.swift */; };
+		BA9BE53728989D5F00C68DBD /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE53628989D5F00C68DBD /* MergeIntervals.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -206,6 +207,7 @@
 		BA9BE530289366F500C68DBD /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
 		BA9BE53228936AD400C68DBD /* JumpGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame.swift; sourceTree = "<group>"; };
 		BA9BE5342893784000C68DBD /* JumpGameII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameII.swift; sourceTree = "<group>"; };
+		BA9BE53628989D5F00C68DBD /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 			children = (
 				BAC15A7026A64D680036D863 /* InsertInterval.swift */,
 				BA9BE4E828750D9C00C68DBD /* MeetingRooms.swift */,
+				BA9BE53628989D5F00C68DBD /* MergeIntervals.swift */,
 			);
 			path = Interval;
 			sourceTree = "<group>";
@@ -705,6 +708,7 @@
 				BA9BE4F328752ADA00C68DBD /* SingleNumber.swift in Sources */,
 				BA00A09B274DC7CC008CEFA5 /* PermutationinString.swift in Sources */,
 				BA8ABA812868E15F004AA9FD /* MaximumDepthofBinaryTree.swift in Sources */,
+				BA9BE53728989D5F00C68DBD /* MergeIntervals.swift in Sources */,
 				E97325F61FC2BBD0001E267C /* ReverseInteger.swift in Sources */,
 				BA9BE52F2891DE8400C68DBD /* PalindromicSubstrings.swift in Sources */,
 				BA9BE4ED287510DB00C68DBD /* FibonacciNumber.swift in Sources */,
