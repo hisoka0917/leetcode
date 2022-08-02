@@ -8,4 +8,4 @@
 
 import Foundation
 
-NonOverlappingIntervals().test()
+MeetingRoomsII().test()
