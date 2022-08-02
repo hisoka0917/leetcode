@@ -8,4 +8,4 @@
 
 import Foundation
 
-MergeIntervals().test()
+NonOverlappingIntervals().test()

@@ -77,6 +77,7 @@
 		BA9BE53328936AD400C68DBD /* JumpGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE53228936AD400C68DBD /* JumpGame.swift */; };
 		BA9BE5352893784000C68DBD /* JumpGameII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5342893784000C68DBD /* JumpGameII.swift */; };
 		BA9BE53728989D5F00C68DBD /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE53628989D5F00C68DBD /* MergeIntervals.swift */; };
+		BA9BE5392898A45400C68DBD /* Non-overlappingIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BE5382898A45400C68DBD /* Non-overlappingIntervals.swift */; };
 		BAA61DBF286A843000AF4E0A /* KthLargestElementinaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */; };
 		BAB59E9627ECF92F005AB02E /* BoatstoSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */; };
 		BABECA3E27EE506F00633F6E /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */; };
@@ -208,6 +209,7 @@
 		BA9BE53228936AD400C68DBD /* JumpGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame.swift; sourceTree = "<group>"; };
 		BA9BE5342893784000C68DBD /* JumpGameII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameII.swift; sourceTree = "<group>"; };
 		BA9BE53628989D5F00C68DBD /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
+		BA9BE5382898A45400C68DBD /* Non-overlappingIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Non-overlappingIntervals.swift"; sourceTree = "<group>"; };
 		BAA61DBE286A843000AF4E0A /* KthLargestElementinaStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementinaStream.swift; sourceTree = "<group>"; };
 		BAB59E9527ECF92F005AB02E /* BoatstoSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatstoSavePeople.swift; sourceTree = "<group>"; };
 		BABECA3D27EE506F00633F6E /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -437,6 +439,7 @@
 				BAC15A7026A64D680036D863 /* InsertInterval.swift */,
 				BA9BE4E828750D9C00C68DBD /* MeetingRooms.swift */,
 				BA9BE53628989D5F00C68DBD /* MergeIntervals.swift */,
+				BA9BE5382898A45400C68DBD /* Non-overlappingIntervals.swift */,
 			);
 			path = Interval;
 			sourceTree = "<group>";
@@ -680,6 +683,7 @@
 				BA8ABA7B2866882A004AA9FD /* ReverseLinkedList.swift in Sources */,
 				E9F813742062389900CCF69B /* LongestCommonPrefix.swift in Sources */,
 				BA8ABA75286539EF004AA9FD /* BestTimetoBuyandSellStock.swift in Sources */,
+				BA9BE5392898A45400C68DBD /* Non-overlappingIntervals.swift in Sources */,
 				E971D068213687B00084B631 /* Implementstrstr.c in Sources */,
 				BA0A1D7E26BB31DB00CD7EBE /* MissingNumber.swift in Sources */,
 				BACF4A4926797FDB00C96331 /* MergeSortedArray.swift in Sources */,
