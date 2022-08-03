@@ -8,4 +8,4 @@
 
 import Foundation
 
-Pow().test()
+Numberof1Bits().test()

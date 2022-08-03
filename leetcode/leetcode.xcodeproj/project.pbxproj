@@ -19,6 +19,7 @@
 		BA0A1D8226BC78EE00CD7EBE /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1D8126BC78EE00CD7EBE /* LongestPalindromicSubstring.swift */; };
 		BA0A1D8426BC845D00CD7EBE /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1D8326BC845D00CD7EBE /* WordBreak.swift */; };
 		BA0B318C256DF75D001C39F3 /* SearchinRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */; };
+		BA0DE89C289AF7900048146B /* Numberof1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE89B289AF7900048146B /* Numberof1Bits.swift */; };
 		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
 		BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78D5F8286BD598009BA16F /* Subsets.swift */; };
@@ -155,6 +156,7 @@
 		BA0A1D8126BC78EE00CD7EBE /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		BA0A1D8326BC845D00CD7EBE /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchinRotatedSortedArray.swift; sourceTree = "<group>"; };
+		BA0DE89B289AF7900048146B /* Numberof1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numberof1Bits.swift; sourceTree = "<group>"; };
 		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
 		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -419,6 +421,7 @@
 			children = (
 				BAC15A66269FC0B60036D863 /* ReverseBits.swift */,
 				BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */,
+				BA0DE89B289AF7900048146B /* Numberof1Bits.swift */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -787,6 +790,7 @@
 				BA97451B26F1732C00C0DC15 /* NumberofPairsofInterchangeableRectangles.swift in Sources */,
 				BA9BE506287DF78200C68DBD /* Search2DMatrix.swift in Sources */,
 				BA9BE51228809AAD00C68DBD /* SubtreeofAnotherTree.swift in Sources */,
+				BA0DE89C289AF7900048146B /* Numberof1Bits.swift in Sources */,
 				BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */,
 				BAFD5A08266D471700A7A5C9 /* AddBinary.swift in Sources */,
 				BA9BE5102880954300C68DBD /* SameTree.swift in Sources */,
