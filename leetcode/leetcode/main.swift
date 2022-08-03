@@ -8,4 +8,4 @@
 
 import Foundation
 
-RotateImage().test()
+SpiralMatrix().test()
