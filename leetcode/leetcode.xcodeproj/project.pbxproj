@@ -425,6 +425,7 @@
 				BA9BE4F228752ADA00C68DBD /* SingleNumber.swift */,
 				BA0DE89B289AF7900048146B /* Numberof1Bits.swift */,
 				BA0DE89D289AFA110048146B /* CountingBits.swift */,
+				BA0A1D7D26BB31DB00CD7EBE /* MissingNumber.swift */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -465,7 +466,6 @@
 			isa = PBXGroup;
 			children = (
 				BAC15A7926AA4F3C0036D863 /* RobotBoundedInCircle.swift */,
-				BA0A1D7D26BB31DB00CD7EBE /* MissingNumber.swift */,
 				BA9BE4EE28751B0500C68DBD /* HappyNumber.swift */,
 				BA9BE4F0287522A400C68DBD /* PlusOne.swift */,
 				E97325F51FC2BBD0001E267C /* ReverseInteger.swift */,
