@@ -27,10 +27,10 @@ class MissingNumber {
     }
 
 //    func missingNumber(_ nums: [Int]) -> Int {
-//            var missing = nums.count
-//            for i in 0 ..< nums.count {
-//                missing ^= i ^ nums[i]
-//            }
-//            return missing
+//        var missing = nums.count
+//        for i in 0 ..< nums.count {
+//            missing ^= i ^ nums[i]
+//        }
+//        return missing
 //    }
 }
