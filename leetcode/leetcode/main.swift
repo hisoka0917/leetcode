@@ -8,4 +8,4 @@
 
 import Foundation
 
-SpiralMatrix().test()
+SetMatrixZeroes().test()
