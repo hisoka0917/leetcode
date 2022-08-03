@@ -8,4 +8,4 @@
 
 import Foundation
 
-CountingBits().test()
+ReverseBits().test()

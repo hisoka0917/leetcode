@@ -11,10 +11,11 @@ import Foundation
 class ReverseBits {
     func reverseBits(_ n: Int) -> Int {
         var res = 0
-        for i in 0 ..< 32 {
-            let bit = (n >> i) & 1
+        var n = n
+        for _ in 0 ..< 32 {
             res = res << 1
-            res |= bit
+            res |= n & 1
+            n = n >> 1
         }
         return res
     }

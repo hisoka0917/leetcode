@@ -20,10 +20,10 @@ class Numberof1Bits {
     }
 
     func test() {
-        let case1 = 0x00001011
-        let case2 = 0x10000000
-//        let case3 = 0x11111111111111111111111111111101
-        let cases = [case1, case2]
+        let case1 = 0b00001011
+        let case2 = 0b10000000
+        let case3 = 0b11111111111111111111111111111101
+        let cases = [case1, case2, case3]
         for input in cases {
             print(hammingWeight(input))
         }
