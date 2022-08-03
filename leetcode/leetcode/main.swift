@@ -8,4 +8,4 @@
 
 import Foundation
 
-SetMatrixZeroes().test()
+Pow().test()
