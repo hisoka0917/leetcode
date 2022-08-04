@@ -8,4 +8,4 @@
 
 import Foundation
 
-ReverseBits().test()
+ProductofArrayExceptSelf().test()
