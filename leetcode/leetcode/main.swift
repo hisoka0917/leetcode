@@ -8,4 +8,4 @@
 
 import Foundation
 
-ProductofArrayExceptSelf().test()
+LongestConsecutiveSequence().test()
