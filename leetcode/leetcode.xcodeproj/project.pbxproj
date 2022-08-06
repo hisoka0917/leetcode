@@ -24,6 +24,7 @@
 		BA0DE8A0289C4A900048146B /* ProductofArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE89F289C4A900048146B /* ProductofArrayExceptSelf.swift */; };
 		BA0DE8A2289C50100048146B /* LongestConsecutiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A1289C50100048146B /* LongestConsecutiveSequence.swift */; };
 		BA0DE8A4289DEF9A0048146B /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A3289DEF9A0048146B /* ContainerWithMostWater.swift */; };
+		BA0DE8A6289DF23F0048146B /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A5289DF23F0048146B /* TrappingRainWater.swift */; };
 		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
 		BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78D5F8286BD598009BA16F /* Subsets.swift */; };
@@ -165,6 +166,7 @@
 		BA0DE89F289C4A900048146B /* ProductofArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductofArrayExceptSelf.swift; sourceTree = "<group>"; };
 		BA0DE8A1289C50100048146B /* LongestConsecutiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutiveSequence.swift; sourceTree = "<group>"; };
 		BA0DE8A3289DEF9A0048146B /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		BA0DE8A5289DF23F0048146B /* TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWater.swift; sourceTree = "<group>"; };
 		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
 		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -371,6 +373,7 @@
 				BAC15A57269693120036D863 /* ThreeSum.swift */,
 				BA0A1D7526B0ECFF00CD7EBE /* 3SumClosest.swift */,
 				BA0DE8A3289DEF9A0048146B /* ContainerWithMostWater.swift */,
+				BA0DE8A5289DF23F0048146B /* TrappingRainWater.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -783,6 +786,7 @@
 				E9AAB5871FC2D3D900A9605C /* ListNode.swift in Sources */,
 				BA9BE531289366F500C68DBD /* UniquePaths.swift in Sources */,
 				BABECA4327F24C9100633F6E /* BinarySearchTreeIterator.swift in Sources */,
+				BA0DE8A6289DF23F0048146B /* TrappingRainWater.swift in Sources */,
 				E93A56C32108A87000C8A95C /* KthLargestElementInArray.swift in Sources */,
 				BA00A099274DC352008CEFA5 /* ImplementStackusingQueues.swift in Sources */,
 				BA9BE5232888916200C68DBD /* MaxAreaofIsland.swift in Sources */,

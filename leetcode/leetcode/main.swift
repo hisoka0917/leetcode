@@ -8,4 +8,4 @@
 
 import Foundation
 
-ContainerWithMostWater().test()
+TrappingRainWater().test()
