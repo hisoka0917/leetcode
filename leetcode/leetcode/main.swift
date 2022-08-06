@@ -8,4 +8,4 @@
 
 import Foundation
 
-LongestConsecutiveSequence().test()
+ContainerWithMostWater().test()
