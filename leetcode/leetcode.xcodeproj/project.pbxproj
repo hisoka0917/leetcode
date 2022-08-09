@@ -26,6 +26,7 @@
 		BA0DE8A4289DEF9A0048146B /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A3289DEF9A0048146B /* ContainerWithMostWater.swift */; };
 		BA0DE8A6289DF23F0048146B /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A5289DF23F0048146B /* TrappingRainWater.swift */; };
 		BA0DE8A828A1E5D70048146B /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A728A1E5D70048146B /* MinimumWindowSubstring.swift */; };
+		BA0DE8AA28A201100048146B /* CarFleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A928A201100048146B /* CarFleet.swift */; };
 		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
 		BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78D5F8286BD598009BA16F /* Subsets.swift */; };
@@ -169,6 +170,7 @@
 		BA0DE8A3289DEF9A0048146B /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		BA0DE8A5289DF23F0048146B /* TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWater.swift; sourceTree = "<group>"; };
 		BA0DE8A728A1E5D70048146B /* MinimumWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstring.swift; sourceTree = "<group>"; };
+		BA0DE8A928A201100048146B /* CarFleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFleet.swift; sourceTree = "<group>"; };
 		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
 		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				BA9BE4FE287CF73000C68DBD /* EvaluateReversePolishNotation.swift */,
 				BA9BE500287CFEB000C68DBD /* GenerateParentheses.swift */,
 				BA9BE502287D0F7200C68DBD /* DailyTemperatures.swift */,
+				BA0DE8A928A201100048146B /* CarFleet.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -751,6 +754,7 @@
 				BA0A1D7626B0ECFF00CD7EBE /* 3SumClosest.swift in Sources */,
 				BAC15A4B268D410B0036D863 /* SearchInsertPosition.swift in Sources */,
 				BAC15A64269FB88D0036D863 /* RotateArray.swift in Sources */,
+				BA0DE8AA28A201100048146B /* CarFleet.swift in Sources */,
 				BA9BE4F328752ADA00C68DBD /* SingleNumber.swift in Sources */,
 				BA00A09B274DC7CC008CEFA5 /* PermutationinString.swift in Sources */,
 				BA8ABA812868E15F004AA9FD /* MaximumDepthofBinaryTree.swift in Sources */,
