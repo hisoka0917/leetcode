@@ -27,6 +27,7 @@
 		BA0DE8A6289DF23F0048146B /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A5289DF23F0048146B /* TrappingRainWater.swift */; };
 		BA0DE8A828A1E5D70048146B /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A728A1E5D70048146B /* MinimumWindowSubstring.swift */; };
 		BA0DE8AA28A201100048146B /* CarFleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8A928A201100048146B /* CarFleet.swift */; };
+		BA0DE8AC28A344EB0048146B /* TimeBasedKeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8AB28A344EB0048146B /* TimeBasedKeyValueStore.swift */; };
 		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
 		BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78D5F8286BD598009BA16F /* Subsets.swift */; };
@@ -171,6 +172,7 @@
 		BA0DE8A5289DF23F0048146B /* TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWater.swift; sourceTree = "<group>"; };
 		BA0DE8A728A1E5D70048146B /* MinimumWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstring.swift; sourceTree = "<group>"; };
 		BA0DE8A928A201100048146B /* CarFleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFleet.swift; sourceTree = "<group>"; };
+		BA0DE8AB28A344EB0048146B /* TimeBasedKeyValueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBasedKeyValueStore.swift; sourceTree = "<group>"; };
 		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
 		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -432,6 +434,7 @@
 				BA9BE505287DF78200C68DBD /* Search2DMatrix.swift */,
 				BA9BE507287E046200C68DBD /* KokoEatingBananas.swift */,
 				BA0B318B256DF75D001C39F3 /* SearchinRotatedSortedArray.swift */,
+				BA0DE8AB28A344EB0048146B /* TimeBasedKeyValueStore.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -732,6 +735,7 @@
 				BA0A1D7E26BB31DB00CD7EBE /* MissingNumber.swift in Sources */,
 				BACF4A4926797FDB00C96331 /* MergeSortedArray.swift in Sources */,
 				E9B8BC6321144EAF00529669 /* RemoveElement.swift in Sources */,
+				BA0DE8AC28A344EB0048146B /* TimeBasedKeyValueStore.swift in Sources */,
 				E97325F81FC2CBB5001E267C /* MergeTwoSortedLists.swift in Sources */,
 				BA9BE52D2891D60C00C68DBD /* HouseRobberII.swift in Sources */,
 				E920D3902063AAE7000C06FB /* ValidParentheses.swift in Sources */,

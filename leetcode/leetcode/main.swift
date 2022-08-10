@@ -8,4 +8,4 @@
 
 import Foundation
 
-CarFleet().test()
+TimeMap.test()
