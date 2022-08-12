@@ -8,4 +8,4 @@
 
 import Foundation
 
-TimeMap.test()
+MedianofTwoSortedArrays().test()
