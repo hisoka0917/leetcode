@@ -8,4 +8,4 @@
 
 import Foundation
 
-MedianofTwoSortedArrays().test()
+FindtheDuplicateNumber().test()
