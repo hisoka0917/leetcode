@@ -8,4 +8,4 @@
 
 import Foundation
 
-FindtheDuplicateNumber().test()
+CountGoodNodesinBinaryTree().test()
