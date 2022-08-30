@@ -8,4 +8,4 @@
 
 import Foundation
 
-CountGoodNodesinBinaryTree().test()
+ValidateBinarySearchTree().test()
