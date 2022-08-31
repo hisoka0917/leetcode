@@ -8,4 +8,4 @@
 
 import Foundation
 
-ValidateBinarySearchTree().test()
+TaskScheduler().test()
