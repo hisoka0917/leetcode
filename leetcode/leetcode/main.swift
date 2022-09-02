@@ -8,4 +8,4 @@
 
 import Foundation
 
-WordSearch().test()
+CoinChange().test()
