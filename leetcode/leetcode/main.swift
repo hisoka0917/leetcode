@@ -8,4 +8,4 @@
 
 import Foundation
 
-ConstructStringfromBinaryTree().test()
+SumofTwoIntegers().test()

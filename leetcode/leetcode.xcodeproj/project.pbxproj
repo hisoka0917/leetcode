@@ -33,6 +33,7 @@
 		BA0DE8AE28A6EBFE0048146B /* MedianofTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8AD28A6EBFE0048146B /* MedianofTwoSortedArrays.swift */; };
 		BA0DE8B028BBFF9A0048146B /* FindtheDuplicateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8AF28BBFF9A0048146B /* FindtheDuplicateNumber.swift */; };
 		BA0DE8B228BC05DC0048146B /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DE8B128BC05DC0048146B /* LRUCache.swift */; };
+		BA1F6D3D28DD307E00EAF156 /* SumofTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6D3C28DD307E00EAF156 /* SumofTwoIntegers.swift */; };
 		BA5809E02566132E0059D20A /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */; };
 		BA5809E9256613CB0059D20A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5809E8256613CB0059D20A /* TreeNode.swift */; };
 		BA78D5F9286BD598009BA16F /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78D5F8286BD598009BA16F /* Subsets.swift */; };
@@ -188,6 +189,7 @@
 		BA0DE8AD28A6EBFE0048146B /* MedianofTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianofTwoSortedArrays.swift; sourceTree = "<group>"; };
 		BA0DE8AF28BBFF9A0048146B /* FindtheDuplicateNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindtheDuplicateNumber.swift; sourceTree = "<group>"; };
 		BA0DE8B128BC05DC0048146B /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		BA1F6D3C28DD307E00EAF156 /* SumofTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumofTwoIntegers.swift; sourceTree = "<group>"; };
 		BA5809DF2566132E0059D20A /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		BA5809E7256613A30059D20A /* BalancedBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTreeTest.swift; sourceTree = "<group>"; };
 		BA5809E8256613CB0059D20A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -470,6 +472,7 @@
 				BA0DE89B289AF7900048146B /* Numberof1Bits.swift */,
 				BA0DE89D289AFA110048146B /* CountingBits.swift */,
 				BA0A1D7D26BB31DB00CD7EBE /* MissingNumber.swift */,
+				BA1F6D3C28DD307E00EAF156 /* SumofTwoIntegers.swift */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -748,6 +751,7 @@
 				BA0DE8A2289C50100048146B /* LongestConsecutiveSequence.swift in Sources */,
 				BA9BE51F2886348000C68DBD /* SubsetsII.swift in Sources */,
 				BAFD5A022668563300A7A5C9 /* BinaryTreeInorderTraversal.swift in Sources */,
+				BA1F6D3D28DD307E00EAF156 /* SumofTwoIntegers.swift in Sources */,
 				BAC15A6C26A0CE2F0036D863 /* UniqueLength3PalindromicSubsequences.swift in Sources */,
 				BAC15A7726A773600036D863 /* ShuffleAnArray.swift in Sources */,
 				BAC15A60269E69D40036D863 /* CombinationSum.swift in Sources */,
