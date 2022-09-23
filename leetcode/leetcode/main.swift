@@ -8,4 +8,4 @@
 
 import Foundation
 
-SumofTwoIntegers().test()
+ReverseInteger().test()

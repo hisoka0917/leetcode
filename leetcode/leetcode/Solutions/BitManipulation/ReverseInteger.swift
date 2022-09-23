@@ -16,10 +16,16 @@ class ReverseInteger {
             reverseInt = reverseInt * 10 + inputX % 10
             inputX = inputX / 10
         }
-        //根据leetcode的执行结果，guard比if快4ms
         guard reverseInt <= Int32.max && reverseInt >= Int32.min else {
             return 0
         }
         return reverseInt
+    }
+    
+    func test() {
+        let cases = [123, -123, 120]
+        for input in cases {
+            print(reverse(input))
+        }
     }
 }
