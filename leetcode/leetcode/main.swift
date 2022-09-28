@@ -8,4 +8,4 @@
 
 import Foundation
 
-ReverseInteger().test()
+GasStation().test()
